@@ -1,0 +1,15 @@
+# Phase 0 — Data Source Access Confirmation Note
+**Region scope: Karnataka**
+
+| Source | Candidate | Access reality | Notes |
+|---|---|---|---|
+| **Prices** | IEX India (Indian Energy Exchange) | Day-ahead market (DAM) area/state clearing prices are published on IEX's public market-snapshot / data pages, delayed rather than real-time. No login needed for headline MCP (market clearing price) data; bulk historical downloads may need registration. | Karnataka doesn't have its own price — you'll pull the state/region-level DAM price relevant to the Southern grid, and treat it as the price signal for the brief. Confirm this framing in your scope note so evaluators don't expect a "Karnataka-only" price. |
+| **Weather** | IMD (India Meteorological Dept.) or OpenWeatherMap | OpenWeatherMap is the easier path: free-tier API key, historical + forecast endpoints, city-level (Bengaluru + a couple of other Karnataka load centers). IMD has richer official data but clunkier public access. | Recommend OpenWeatherMap for reliability during dev; mention IMD as the "official" source in your report for credibility. |
+| **Outages** | POSOCO/Grid-India (NLDC/SRLDC) or Karnataka SLDC, vs. BESCOM | **Important distinction found during this check:** BESCOM's public outage feed is *distribution-level, consumer-facing* planned maintenance (feeder/transformer shutdowns), published as daily area-wise circulars — not grid-scale generation outages that move wholesale prices. For a *trading* brief, the more relevant source is **Karnataka SLDC / Grid-India (SRLDC) generation outage & grid-event bulletins**, usually PDFs. | Decide explicitly: are you including BESCOM-style distribution outages (more data, easier to get, lower market relevance) or SLDC/Grid-India generation outages (harder to get, higher market relevance)? Recommend using SLDC/Grid-India bulletins as primary, and treating BESCOM circulars as a secondary/optional enrichment source if time allows. State this decision in your scope note. |
+| **Regulatory** | KERC (Karnataka Electricity Regulatory Commission) / CERC | KERC publishes orders, tariff orders, and public notices on its website (kerc.karnataka.gov.in) — no formal RSS feed confirmed, so this will likely need periodic scraping of the orders/notices index page. CERC (central) has similar structure for pan-India items that could affect Karnataka. | Filter aggressively per Phase 2 spec — most KERC filings (tariff petitions, procedural orders) are not bid-relevant; only flag items with near-term market impact. |
+
+## Action items before Phase 1 starts
+1. Confirm you can get an OpenWeatherMap API key (or decide to scrape IMD instead).
+2. Locate the actual SLDC-Karnataka / SRLDC bulletin page and confirm PDFs are downloadable (not just embedded viewers) — this determines PDF-extraction effort in Phase 1/2.
+3. Decide: BESCOM outages in scope or out of scope (recommendation: out of scope for v1, note as future work).
+4. Bookmark the IEX market data page you'll pull DAM prices from, and check whether historical bulk data needs a registration/login.

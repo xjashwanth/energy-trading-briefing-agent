@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ingestion Agent Output Schema",
+  "description": "Common output contract for all 4 ingestion agents (price, weather, outage, regulatory). Every agent MUST emit an array of items conforming to this shape so the cross-referencing and synthesis agents can consume them uniformly.",
+  "type": "object",
+  "required": ["source", "region", "as_of_date", "generated_at", "items"],
+  "properties": {
+    "source": {
+      "type": "string",
+      "enum": ["price", "weather", "outage", "regulatory"],
+      "description": "Which ingestion agent produced this file"
+    },
+    "region": {
+      "type": "string",
+      "description": "Grid/state scope for this project run",
+      "const": "Karnataka"
+    },
+    "as_of_date": {
+      "type": "string",
+      "format": "date",
+      "description": "The trading/business date this data pertains to (YYYY-MM-DD)"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp the agent produced this output (ISO 8601)"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "item_id",
+          "headline",
+          "detail",
+          "materiality_score",
+          "source_reference",
+          "source_timestamp",
+          "delta_from_previous"
+        ],
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "description": "Stable unique id, e.g. price-2026-07-18-001"
+          },
+          "headline": {
+            "type": "string",
+            "description": "One-line summary of the item, plain language"
+          },
+          "detail": {
+            "type": "string",
+            "description": "Fuller structured detail; must be traceable to source_reference values, no embellishment"
+          },
+          "materiality_score": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "1 = negligible, 5 = highly market-relevant"
+          },
+          "source_reference": {
+            "type": "string",
+            "description": "URL, file path, or bulletin ID the item was extracted from"
+          },
+          "source_timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When the underlying source data was published/observed"
+          },
+          "delta_from_previous": {
+            "type": ["string", "null"],
+            "description": "What changed vs. the prior day's equivalent item; null if this is a new item with no prior comparison"
+          },
+          "grid_zone": {
+            "type": ["string", "null"],
+            "description": "Optional: sub-region/zone within Karnataka (e.g. Bengaluru Urban, Hubli-Dharwad) used by the cross-referencing agent to detect compounded risk"
+          },
+          "raw_values": {
+            "type": "object",
+            "description": "Source-specific structured fields (e.g. price: {mcp_rs_per_mwh, block}; weather: {temp_c, forecast_confidence}; outage: {plant_name, mw_capacity, duration_hours}; regulatory: {filing_type, commission})",
+            "additionalProperties": true
+          }
+        }
+      }
+    }
+  }
+}

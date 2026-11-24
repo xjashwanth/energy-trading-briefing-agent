@@ -1,0 +1,655 @@
+{
+  "summary": {
+    "overall_checked": 5247,
+    "overall_correct": 5170,
+    "overall_accuracy_pct": 98.5
+  },
+  "per_source": {
+    "price": {
+      "checked": 1365,
+      "correct": 1365,
+      "accuracy_pct": 100.0,
+      "flagged": []
+    },
+    "weather": {
+      "checked": 552,
+      "correct": 552,
+      "accuracy_pct": 100.0,
+      "flagged": []
+    },
+    "outage": {
+      "checked": 3330,
+      "correct": 3253,
+      "accuracy_pct": 97.7,
+      "flagged": [
+        {
+          "source": "outage",
+          "date": "2026-04-22",
+          "item_id": "outage-2026-04-22-003",
+          "field": "unit",
+          "extracted": "2",
+          "recomputed": "1",
+          "note": "only 1 station match but unit differed -- check manually"
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-22",
+          "item_id": "outage-2026-04-22-003",
+          "field": "forced_major_mw",
+          "extracted": 0.0,
+          "recomputed": 210.0
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-22",
+          "item_id": "outage-2026-04-22-003",
+          "field": "start_date",
+          "extracted": "21/04/2026",
+          "recomputed": "15/03/2024"
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-22",
+          "item_id": "outage-2026-04-22-003",
+          "field": "start_time",
+          "extracted": "07:04",
+          "recomputed": "00:00"
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-26",
+          "item_id": "outage-2026-04-26-007",
+          "field": "unit",
+          "extracted": "3",
+          "recomputed": "1",
+          "note": "only 1 station match but unit differed -- check manually"
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-26",
+          "item_id": "outage-2026-04-26-007",
+          "field": "planned_mw",
+          "extracted": 0.0,
+          "recomputed": 220.0
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-26",
+          "item_id": "outage-2026-04-26-007",
+          "field": "forced_minor_mw",
+          "extracted": 220.0,
+          "recomputed": 0.0
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-26",
+          "item_id": "outage-2026-04-26-007",
+          "field": "start_date",
+          "extracted": "23/04/2026",
+          "recomputed": "31/03/2025"
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-26",
+          "item_id": "outage-2026-04-26-007",
+          "field": "start_time",
+          "extracted": "17:06",
+          "recomputed": "23:11"
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-26",
+          "item_id": "outage-2026-04-26-008",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 2",
+          "recomputed": "NOT FOUND (4 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-28",
+          "item_id": "outage-2026-04-28-006",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 5",
+          "recomputed": "NOT FOUND (3 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-29",
+          "item_id": "outage-2026-04-29-005",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 6",
+          "recomputed": "NOT FOUND (2 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-04-30",
+          "item_id": "outage-2026-04-30-004",
+          "field": "station+unit",
+          "extracted": "YERMARUS TPP unit 2",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-03",
+          "item_id": "outage-2026-05-03-004",
+          "field": "station+unit",
+          "extracted": "ADANI POWER unit 1",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-05",
+          "item_id": "outage-2026-05-05-004",
+          "field": "station+unit",
+          "extracted": "YERMARUS TPP unit 1",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-11",
+          "item_id": "outage-2026-05-11-007",
+          "field": "unit",
+          "extracted": "1",
+          "recomputed": "2",
+          "note": "only 1 station match but unit differed -- check manually"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-11",
+          "item_id": "outage-2026-05-11-007",
+          "field": "forced_minor_mw",
+          "extracted": 0.0,
+          "recomputed": 600.0
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-11",
+          "item_id": "outage-2026-05-11-007",
+          "field": "start_date",
+          "extracted": "09/05/2026",
+          "recomputed": "06/05/2026"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-11",
+          "item_id": "outage-2026-05-11-007",
+          "field": "start_time",
+          "extracted": "17:33",
+          "recomputed": "00:01"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-13",
+          "item_id": "outage-2026-05-13-005",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 8",
+          "recomputed": "NOT FOUND (2 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-13",
+          "item_id": "outage-2026-05-13-006",
+          "field": "station+unit",
+          "extracted": "YERMARUS TPP unit 2",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-21",
+          "item_id": "outage-2026-05-21-006",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 5",
+          "recomputed": "NOT FOUND (2 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-22",
+          "item_id": "outage-2026-05-22-006",
+          "field": "unit",
+          "extracted": "1",
+          "recomputed": "3",
+          "note": "only 1 station match but unit differed -- check manually"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-22",
+          "item_id": "outage-2026-05-22-006",
+          "field": "forced_minor_mw",
+          "extracted": 500.0,
+          "recomputed": 700.0
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-22",
+          "item_id": "outage-2026-05-22-006",
+          "field": "start_date",
+          "extracted": "19/05/2026",
+          "recomputed": "22/05/2026"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-22",
+          "item_id": "outage-2026-05-22-006",
+          "field": "start_time",
+          "extracted": "16:00",
+          "recomputed": "13:14"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-23",
+          "item_id": "outage-2026-05-23-006",
+          "field": "station+unit",
+          "extracted": "ADANI POWER unit 2",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-25",
+          "item_id": "outage-2026-05-25-005",
+          "field": "station+unit",
+          "extracted": "BELLARY TPS unit 3",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-25",
+          "item_id": "outage-2026-05-25-006",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 2",
+          "recomputed": "NOT FOUND (3 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-26",
+          "item_id": "outage-2026-05-26-004",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 3",
+          "recomputed": "NOT FOUND (2 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-26",
+          "item_id": "outage-2026-05-26-005",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 4",
+          "recomputed": "NOT FOUND (2 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-05-31",
+          "item_id": "outage-2026-05-31-007",
+          "field": "station+unit",
+          "extracted": "BELLARY TPS unit 3",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-03",
+          "item_id": "outage-2026-06-03-006",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 2",
+          "recomputed": "NOT FOUND (2 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-04",
+          "item_id": "outage-2026-06-04-006",
+          "field": "station+unit",
+          "extracted": "KUDGI STPP unit 3",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-07",
+          "item_id": "outage-2026-06-07-005",
+          "field": "unit",
+          "extracted": "2",
+          "recomputed": "1",
+          "note": "only 1 station match but unit differed -- check manually"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-07",
+          "item_id": "outage-2026-06-07-005",
+          "field": "start_time",
+          "extracted": "10:27",
+          "recomputed": "13:35"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-09",
+          "item_id": "outage-2026-06-09-005",
+          "field": "station+unit",
+          "extracted": "YERMARUS TPP unit 1",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-11",
+          "item_id": "outage-2026-06-11-004",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 3",
+          "recomputed": "NOT FOUND (2 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-13",
+          "item_id": "outage-2026-06-13-005",
+          "field": "station+unit",
+          "extracted": "BELLARY TPS unit 2",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-16",
+          "item_id": "outage-2026-06-16-005",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 6",
+          "recomputed": "NOT FOUND (2 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-16",
+          "item_id": "outage-2026-06-16-006",
+          "field": "station+unit",
+          "extracted": "TORANGALLU TPS unit 2",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-17",
+          "item_id": "outage-2026-06-17-004",
+          "field": "station+unit",
+          "extracted": "ADANI POWER unit 1",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-20",
+          "item_id": "outage-2026-06-20-005",
+          "field": "unit",
+          "extracted": "3",
+          "recomputed": "2",
+          "note": "only 1 station match but unit differed -- check manually"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-20",
+          "item_id": "outage-2026-06-20-005",
+          "field": "forced_minor_mw",
+          "extracted": 700.0,
+          "recomputed": 500.0
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-20",
+          "item_id": "outage-2026-06-20-005",
+          "field": "start_date",
+          "extracted": "19/06/2026",
+          "recomputed": "18/06/2026"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-20",
+          "item_id": "outage-2026-06-20-005",
+          "field": "start_time",
+          "extracted": "00:29",
+          "recomputed": "17:55"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-21",
+          "item_id": "outage-2026-06-21-006",
+          "field": "unit",
+          "extracted": "2",
+          "recomputed": "3",
+          "note": "only 1 station match but unit differed -- check manually"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-21",
+          "item_id": "outage-2026-06-21-006",
+          "field": "forced_minor_mw",
+          "extracted": 500.0,
+          "recomputed": 0.0
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-21",
+          "item_id": "outage-2026-06-21-006",
+          "field": "start_date",
+          "extracted": "18/06/2026",
+          "recomputed": "20/06/2026"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-21",
+          "item_id": "outage-2026-06-21-006",
+          "field": "start_time",
+          "extracted": "17:55",
+          "recomputed": "07:37"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-22",
+          "item_id": "outage-2026-06-22-004",
+          "field": "station+unit",
+          "extracted": "BELLARY TPS unit 3",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-24",
+          "item_id": "outage-2026-06-24-006",
+          "field": "station+unit",
+          "extracted": "KUDGI STPP unit 1",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-26",
+          "item_id": "outage-2026-06-26-006",
+          "field": "station+unit",
+          "extracted": "BELLARY TPS unit 1",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-27",
+          "item_id": "outage-2026-06-27-006",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 6",
+          "recomputed": "NOT FOUND (3 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-06-29",
+          "item_id": "outage-2026-06-29-008",
+          "field": "station+unit",
+          "extracted": "TORANGALLU TPS unit 2",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-01",
+          "item_id": "outage-2026-07-01-008",
+          "field": "station+unit",
+          "extracted": "YERMARUS TPP unit 2",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-03",
+          "item_id": "outage-2026-07-03-007",
+          "field": "unit",
+          "extracted": "3",
+          "recomputed": "1",
+          "note": "only 1 station match but unit differed -- check manually"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-03",
+          "item_id": "outage-2026-07-03-007",
+          "field": "forced_minor_mw",
+          "extracted": 0.0,
+          "recomputed": 500.0
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-03",
+          "item_id": "outage-2026-07-03-007",
+          "field": "start_time",
+          "extracted": "15:55",
+          "recomputed": "12:29"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-04",
+          "item_id": "outage-2026-07-04-006",
+          "field": "station+unit",
+          "extracted": "BELLARY TPS unit 1",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-07",
+          "item_id": "outage-2026-07-07-008",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 7",
+          "recomputed": "NOT FOUND (4 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-10",
+          "item_id": "outage-2026-07-10-009",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 3",
+          "recomputed": "NOT FOUND (4 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-10",
+          "item_id": "outage-2026-07-10-010",
+          "field": "station+unit",
+          "extracted": "ADANI POWER unit 2",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-13",
+          "item_id": "outage-2026-07-13-008",
+          "field": "unit",
+          "extracted": "3",
+          "recomputed": "2",
+          "note": "only 1 station match but unit differed -- check manually"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-13",
+          "item_id": "outage-2026-07-13-008",
+          "field": "forced_minor_mw",
+          "extracted": 0.0,
+          "recomputed": 500.0
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-13",
+          "item_id": "outage-2026-07-13-008",
+          "field": "start_date",
+          "extracted": "09/07/2026",
+          "recomputed": "10/07/2026"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-13",
+          "item_id": "outage-2026-07-13-008",
+          "field": "start_time",
+          "extracted": "02:54",
+          "recomputed": "07:16"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-14",
+          "item_id": "outage-2026-07-14-007",
+          "field": "unit",
+          "extracted": "2",
+          "recomputed": "1",
+          "note": "only 1 station match but unit differed -- check manually"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-14",
+          "item_id": "outage-2026-07-14-007",
+          "field": "forced_minor_mw",
+          "extracted": 500.0,
+          "recomputed": 0.0
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-14",
+          "item_id": "outage-2026-07-14-007",
+          "field": "start_date",
+          "extracted": "10/07/2026",
+          "recomputed": "14/07/2026"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-14",
+          "item_id": "outage-2026-07-14-007",
+          "field": "start_time",
+          "extracted": "07:16",
+          "recomputed": "16:57"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-14",
+          "item_id": "outage-2026-07-14-008",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 8",
+          "recomputed": "NOT FOUND (3 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-15",
+          "item_id": "outage-2026-07-15-006",
+          "field": "unit",
+          "extracted": "1",
+          "recomputed": "2",
+          "note": "only 1 station match but unit differed -- check manually"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-15",
+          "item_id": "outage-2026-07-15-006",
+          "field": "start_date",
+          "extracted": "14/07/2026",
+          "recomputed": "15/07/2026"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-15",
+          "item_id": "outage-2026-07-15-006",
+          "field": "start_time",
+          "extracted": "16:57",
+          "recomputed": "12:15"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-15",
+          "item_id": "outage-2026-07-15-007",
+          "field": "station+unit",
+          "extracted": "RAICHUR TPS unit 7",
+          "recomputed": "NOT FOUND (2 station matches, none matched unit)"
+        },
+        {
+          "source": "outage",
+          "date": "2026-07-16",
+          "item_id": "outage-2026-07-16-006",
+          "field": "station+unit",
+          "extracted": "BELLARY TPS unit 2",
+          "recomputed": "NOT FOUND (0 station matches, none matched unit)"
+        }
+      ]
+    }
+  }
+}

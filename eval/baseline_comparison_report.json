@@ -1,0 +1,37 @@
+{
+  "summary": {
+    "days_compared": 1,
+    "avg_grounding_pct": {
+      "baseline": 50.0,
+      "pipeline": 100.0
+    },
+    "avg_word_count": {
+      "baseline": 11.0,
+      "pipeline": 22.0
+    },
+    "note": "Grounding % is the quantitative half of this metric. Qualitative read (compounded-risk detection, delta-awareness, section structure) still needs a manual side-by-side skim -- this script doesn't score that."
+  },
+  "per_day": [
+    {
+      "date": "2026-01-02",
+      "baseline": {
+        "numbers_checked": 2,
+        "grounded": 1,
+        "grounding_rate_pct": 50.0,
+        "flagged_examples": [
+          "Unrelated fabricated figure: 9999 MW."
+        ]
+      },
+      "pipeline": {
+        "numbers_checked": 8,
+        "grounded": 8,
+        "grounding_rate_pct": 100.0,
+        "flagged_examples": []
+      },
+      "word_count": {
+        "baseline": 11,
+        "pipeline": 22
+      }
+    }
+  ]
+}

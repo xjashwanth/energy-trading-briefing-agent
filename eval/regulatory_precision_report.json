@@ -1,0 +1,11 @@
+{
+  "n_total": 3,
+  "n_labeled": 3,
+  "n_unlabeled": 0,
+  "precision_pct": 100.0,
+  "drop_accuracy_pct": null,
+  "score_agreement_pct": 100.0,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "sample_size_adequate": false
+}

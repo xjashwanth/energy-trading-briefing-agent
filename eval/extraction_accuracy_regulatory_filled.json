@@ -1,0 +1,78 @@
+{
+  "instructions": "Regulatory extraction-accuracy check, pre-filled by Claude against candidates.json's own detail text (all 3 items' extracted fields matched their source detail field on inspection). Run: python eval/score_extraction_accuracy.py --in eval/extraction_accuracy_regulatory_filled.json",
+  "rows": [
+    {
+      "source": "regulatory",
+      "as_of_date": "2026-07-17",
+      "item_id": "regulatory-2026-04-18-001",
+      "headline": "KERC true-up order: BESCOM tariff up 56 paise/unit from May 2026",
+      "source_reference": "https://newsable.asianetnews.com/karnataka-news/kerc-issues-true-up-tariff-order-bescom-consumers-to-pay-56-paise-more-per-unit-articleshow-03ssvtv",
+      "source_file": "data/historical/regulatory/candidates.json",
+      "fields_to_check": {
+        "filing_type": {
+          "extracted_value": "true-up tariff order",
+          "ground_truth_value": "true-up tariff order",
+          "correct": true
+        },
+        "commission": {
+          "extracted_value": "KERC",
+          "ground_truth_value": "KERC",
+          "correct": true
+        },
+        "effective_from": {
+          "extracted_value": "2026-05-01",
+          "ground_truth_value": "2026-05-01",
+          "correct": true
+        },
+        "effective_to": {
+          "extracted_value": "2027-04-30",
+          "ground_truth_value": "2027-04-30",
+          "correct": true
+        }
+      },
+      "reviewer_notes": "Detail field states 'Effective for electricity consumed May 1, 2026 - Apr 30, 2027' -- matches effective_from/effective_to exactly. filing_type and commission match the item's own description."
+    },
+    {
+      "source": "regulatory",
+      "as_of_date": "2026-07-17",
+      "item_id": "regulatory-2026-07-02-001",
+      "headline": "KERC opens public hearing on solar tariff framework for 2026-2029",
+      "source_reference": "https://solarquarter.com/2026/07/03/kerc-schedules-public-hearing-on-solar-tariffs-and-regulatory-framework-for-2026-2029-in-karnataka/",
+      "source_file": "data/historical/regulatory/candidates.json",
+      "fields_to_check": {
+        "filing_type": {
+          "extracted_value": "public notice / hearing announcement",
+          "ground_truth_value": "public notice / hearing announcement",
+          "correct": true
+        },
+        "commission": {
+          "extracted_value": "KERC",
+          "ground_truth_value": "KERC",
+          "correct": true
+        }
+      },
+      "reviewer_notes": "Detail field: 'Public notice issued July 2, 2026 announcing a hearing to determine tariff and regulatory framework...' -- matches filing_type and commission."
+    },
+    {
+      "source": "regulatory",
+      "as_of_date": "2026-07-17",
+      "item_id": "regulatory-2026-07-03-001",
+      "headline": "KERC issues draft amendment to Karnataka Electricity Distribution Code",
+      "source_reference": "https://www.eqmagpro.com/draft-karnataka-electricity-distribution-code-first-amendment-2026-eq/",
+      "source_file": "data/historical/regulatory/candidates.json",
+      "fields_to_check": {
+        "filing_type": {
+          "extracted_value": "draft regulation amendment",
+          "ground_truth_value": "draft regulation amendment",
+          "correct": true
+        },
+        "commission": {
+          "extracted_value": "KERC",
+          "ground_truth_value": "KERC",
+          "correct": true
+        }
+      },
+      "reviewer_notes": "Detail field: 'Draft First Amendment to the Karnataka Electricity Distribution Code (KEDC) 2026 gazetted June 11, 2026...' -- matches filing_type and commission."
+    }
+  ]
+}

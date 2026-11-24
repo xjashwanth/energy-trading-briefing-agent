@@ -1,0 +1,19 @@
+# Core Python Dependencies for Energy Trading Briefing Agent (PS130)
+
+# LLM & Web API Libraries
+openai>=1.0.0
+anthropic>=0.18.0
+python-dotenv>=1.0.0
+
+# Web Dashboard & PDF Generation
+streamlit>=1.25.0
+reportlab>=3.6.0
+
+# Data Processing & Testing
+pytest>=7.0.0
+pandas>=1.5.0
+openpyxl>=3.0.0
+
+# Presentation & Report Generation Tools (Optional)
+python-docx>=0.8.11
+python-pptx>=0.6.21

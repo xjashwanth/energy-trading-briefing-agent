@@ -1,0 +1,83 @@
+{
+  "run_id": "14b17c51894a4daba63fb51be53b7400",
+  "date": "2026-07-13",
+  "started_at": "2026-10-01T11:28:59.934695+00:00",
+  "status": "success",
+  "stages": [
+    {
+      "name": "credentials",
+      "status": "success",
+      "started_at": "2026-10-01T11:28:59.934977+00:00",
+      "duration_seconds": 0.0
+    },
+    {
+      "name": "ingestion",
+      "status": "success",
+      "started_at": "2026-10-01T11:28:59.935427+00:00",
+      "duration_seconds": 0.004
+    },
+    {
+      "name": "coverage",
+      "status": "success",
+      "started_at": "2026-10-01T11:28:59.939502+00:00",
+      "duration_seconds": 0.003
+    },
+    {
+      "name": "synthesis",
+      "status": "success",
+      "started_at": "2026-10-01T11:28:59.942601+00:00",
+      "duration_seconds": 12.731
+    },
+    {
+      "name": "verification",
+      "status": "success",
+      "started_at": "2026-10-01T11:29:12.674669+00:00",
+      "duration_seconds": 0.001
+    },
+    {
+      "name": "publication",
+      "status": "success",
+      "started_at": "2026-10-01T11:29:12.676146+00:00",
+      "duration_seconds": 0.001
+    }
+  ],
+  "coverage": [
+    {
+      "source": "price",
+      "status": "available",
+      "items": 3,
+      "latest_saved_date": "2026-07-13"
+    },
+    {
+      "source": "weather",
+      "status": "available",
+      "items": 1,
+      "latest_saved_date": "2026-07-13"
+    },
+    {
+      "source": "outage",
+      "status": "available",
+      "items": 8,
+      "latest_saved_date": "2026-07-13"
+    },
+    {
+      "source": "regulatory",
+      "status": "available",
+      "items": 3,
+      "latest_saved_date": "2026-07-17",
+      "age_days": 0,
+      "freshness_limit_days": 7
+    }
+  ],
+  "verification": {
+    "verification_method": "exact_source_statement_v1",
+    "total_claims_checked": 19,
+    "total_verified": 17,
+    "total_unverifiable": 0,
+    "total_flagged": 2,
+    "verified_rate_pct": 89.5,
+    "not_flagged_rate_pct": 89.5
+  },
+  "artifact": "/content/energy-trading-briefing-agent/briefs/2026-07-13_verified.md",
+  "finished_at": "2026-10-01T11:29:12.677791+00:00"
+}

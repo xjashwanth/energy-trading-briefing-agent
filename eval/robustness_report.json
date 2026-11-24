@@ -1,0 +1,35 @@
+{
+  "run_date": "2026-08-12",
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0
+  },
+  "results": [
+    {
+      "scenario": "No-data day (all sources empty)",
+      "status": "PASS",
+      "detail": "verifier_agent completed cleanly on all-empty sources"
+    },
+    {
+      "scenario": "Malformed/corrupt JSON in data/ingested",
+      "status": "PASS",
+      "detail": "malformed price.json logged/skipped rather than crashing pipeline"
+    },
+    {
+      "scenario": "Missing data/ingested directory",
+      "status": "PASS",
+      "detail": "missing data/ingested/<date> handled without crash"
+    },
+    {
+      "scenario": "Malformed outage bulletin row",
+      "status": "PASS",
+      "detail": "unparseable outage row preserved as low-confidence flagged item"
+    },
+    {
+      "scenario": "Conflicting signals, different zones -> no false correlation",
+      "status": "PASS",
+      "detail": "mismatched-zone outage+heatwave not falsely asserted as confirmed correlation"
+    }
+  ]
+}

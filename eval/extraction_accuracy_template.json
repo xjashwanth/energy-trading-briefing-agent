@@ -1,0 +1,1102 @@
+{
+  "instructions": "For each row, open source_reference (or source_file for locally-saved PDFs/xlsx) and check each field under fields_to_check against the ORIGINAL raw source. Fill ground_truth_value with what the source actually says, and set correct = true/false. Leave correct = null if you can't verify. Save this file, then run: python eval/score_extraction_accuracy.py",
+  "rows": [
+    {
+      "source": "price",
+      "as_of_date": "2026-06-11",
+      "item_id": "price-2026-06-11-003",
+      "headline": "Wide intraday MCP spread: 194% of daily average",
+      "source_reference": "local:data/historical/prices/2026-06-11.json",
+      "source_file": "data/ingested/prices/2026-06-11.json",
+      "fields_to_check": {
+        "avg_mcp_rs_per_mwh": {
+          "extracted_value": 4586.46,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "max_mcp_rs_per_mwh": {
+          "extracted_value": 10000.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "min_mcp_rs_per_mwh": {
+          "extracted_value": 1092.97,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "peak_hours_avg_mcp_rs_per_mwh": {
+          "extracted_value": 7945.93,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "total_scheduled_volume_mwh": {
+          "extracted_value": 142846.48,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "price",
+      "as_of_date": "2026-07-17",
+      "item_id": "price-2026-07-17-003",
+      "headline": "Wide intraday MCP spread: 112% of daily average",
+      "source_reference": "local:data/historical/prices/2026-07-17.json",
+      "source_file": "data/ingested/prices/2026-07-17.json",
+      "fields_to_check": {
+        "avg_mcp_rs_per_mwh": {
+          "extracted_value": 7284.41,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "max_mcp_rs_per_mwh": {
+          "extracted_value": 10000.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "min_mcp_rs_per_mwh": {
+          "extracted_value": 1880.12,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "peak_hours_avg_mcp_rs_per_mwh": {
+          "extracted_value": 10000.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "total_scheduled_volume_mwh": {
+          "extracted_value": 148764.17,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "price",
+      "as_of_date": "2026-07-04",
+      "item_id": "price-2026-07-04-002",
+      "headline": "Peak-hour (18:00-24:00) MCP premium: +105.1% vs daily avg",
+      "source_reference": "local:data/historical/prices/2026-07-04.json",
+      "source_file": "data/ingested/prices/2026-07-04.json",
+      "fields_to_check": {
+        "avg_mcp_rs_per_mwh": {
+          "extracted_value": 3325.58,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "max_mcp_rs_per_mwh": {
+          "extracted_value": 10000.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "min_mcp_rs_per_mwh": {
+          "extracted_value": 300.28,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "peak_hours_avg_mcp_rs_per_mwh": {
+          "extracted_value": 6819.95,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "total_scheduled_volume_mwh": {
+          "extracted_value": 155285.42,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "price",
+      "as_of_date": "2026-07-04",
+      "item_id": "price-2026-07-04-003",
+      "headline": "Wide intraday MCP spread: 292% of daily average",
+      "source_reference": "local:data/historical/prices/2026-07-04.json",
+      "source_file": "data/ingested/prices/2026-07-04.json",
+      "fields_to_check": {
+        "avg_mcp_rs_per_mwh": {
+          "extracted_value": 3325.58,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "max_mcp_rs_per_mwh": {
+          "extracted_value": 10000.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "min_mcp_rs_per_mwh": {
+          "extracted_value": 300.28,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "peak_hours_avg_mcp_rs_per_mwh": {
+          "extracted_value": 6819.95,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "total_scheduled_volume_mwh": {
+          "extracted_value": 155285.42,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "price",
+      "as_of_date": "2026-05-30",
+      "item_id": "price-2026-05-30-003",
+      "headline": "Wide intraday MCP spread: 244% of daily average",
+      "source_reference": "local:data/historical/prices/2026-05-30.json",
+      "source_file": "data/ingested/prices/2026-05-30.json",
+      "fields_to_check": {
+        "avg_mcp_rs_per_mwh": {
+          "extracted_value": 3981.03,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "max_mcp_rs_per_mwh": {
+          "extracted_value": 10000.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "min_mcp_rs_per_mwh": {
+          "extracted_value": 300.87,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "peak_hours_avg_mcp_rs_per_mwh": {
+          "extracted_value": 8579.85,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "total_scheduled_volume_mwh": {
+          "extracted_value": 145642.13,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "price",
+      "as_of_date": "2026-06-22",
+      "item_id": "price-2026-06-22-001",
+      "headline": "Average DAM (Southern proxy) MCP: Rs 6253.23/MWh",
+      "source_reference": "local:data/historical/prices/2026-06-22.json",
+      "source_file": "data/ingested/prices/2026-06-22.json",
+      "fields_to_check": {
+        "avg_mcp_rs_per_mwh": {
+          "extracted_value": 6253.23,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "max_mcp_rs_per_mwh": {
+          "extracted_value": 10000.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "min_mcp_rs_per_mwh": {
+          "extracted_value": 1396.25,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "peak_hours_avg_mcp_rs_per_mwh": {
+          "extracted_value": 9233.16,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "total_scheduled_volume_mwh": {
+          "extracted_value": 143755.6,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "price",
+      "as_of_date": "2026-06-18",
+      "item_id": "price-2026-06-18-003",
+      "headline": "Wide intraday MCP spread: 149% of daily average",
+      "source_reference": "local:data/historical/prices/2026-06-18.json",
+      "source_file": "data/ingested/prices/2026-06-18.json",
+      "fields_to_check": {
+        "avg_mcp_rs_per_mwh": {
+          "extracted_value": 5840.59,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "max_mcp_rs_per_mwh": {
+          "extracted_value": 10000.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "min_mcp_rs_per_mwh": {
+          "extracted_value": 1300.66,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "peak_hours_avg_mcp_rs_per_mwh": {
+          "extracted_value": 8850.49,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "total_scheduled_volume_mwh": {
+          "extracted_value": 156766.99,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "price",
+      "as_of_date": "2026-07-15",
+      "item_id": "price-2026-07-15-002",
+      "headline": "Peak-hour (18:00-24:00) MCP premium: +48.0% vs daily avg",
+      "source_reference": "local:data/historical/prices/2026-07-15.json",
+      "source_file": "data/ingested/prices/2026-07-15.json",
+      "fields_to_check": {
+        "avg_mcp_rs_per_mwh": {
+          "extracted_value": 6525.79,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "max_mcp_rs_per_mwh": {
+          "extracted_value": 10000.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "min_mcp_rs_per_mwh": {
+          "extracted_value": 1115.7,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "peak_hours_avg_mcp_rs_per_mwh": {
+          "extracted_value": 9657.95,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "total_scheduled_volume_mwh": {
+          "extracted_value": 145393.28,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "weather",
+      "as_of_date": "2026-05-11",
+      "item_id": "weather-2026-05-11-001",
+      "headline": "Bengaluru Urban: Warm conditions -- modest cooling-demand pressure (max 34.0C)",
+      "source_reference": "local:data/historical/weather/2026-05-11/bengaluru.json",
+      "source_file": "data/ingested/weather/2026-05-11.json",
+      "fields_to_check": {
+        "temperature_2m_max_c": {
+          "extracted_value": 34.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_min_c": {
+          "extracted_value": 21.7,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_mean_c": {
+          "extracted_value": 27.8,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "relative_humidity_2m_mean_pct": {
+          "extracted_value": 53,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "precipitation_sum_mm": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "wind_speed_10m_max_kmh": {
+          "extracted_value": 16.9,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "weather",
+      "as_of_date": "2026-06-05",
+      "item_id": "weather-2026-06-05-001",
+      "headline": "Bengaluru Urban: Mild conditions -- limited cooling-demand impact (max 27.2C)",
+      "source_reference": "local:data/historical/weather/2026-06-05/bengaluru.json",
+      "source_file": "data/ingested/weather/2026-06-05.json",
+      "fields_to_check": {
+        "temperature_2m_max_c": {
+          "extracted_value": 27.2,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_min_c": {
+          "extracted_value": 20.9,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_mean_c": {
+          "extracted_value": 23.8,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "relative_humidity_2m_mean_pct": {
+          "extracted_value": 78,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "precipitation_sum_mm": {
+          "extracted_value": 2.7,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "wind_speed_10m_max_kmh": {
+          "extracted_value": 22.0,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "weather",
+      "as_of_date": "2026-05-20",
+      "item_id": "weather-2026-05-20-001",
+      "headline": "Bengaluru Urban: Warm conditions -- modest cooling-demand pressure (max 30.0C)",
+      "source_reference": "local:data/historical/weather/2026-05-20/bengaluru.json",
+      "source_file": "data/ingested/weather/2026-05-20.json",
+      "fields_to_check": {
+        "temperature_2m_max_c": {
+          "extracted_value": 30.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_min_c": {
+          "extracted_value": 21.9,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_mean_c": {
+          "extracted_value": 25.1,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "relative_humidity_2m_mean_pct": {
+          "extracted_value": 77,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "precipitation_sum_mm": {
+          "extracted_value": 5.7,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "wind_speed_10m_max_kmh": {
+          "extracted_value": 14.7,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "weather",
+      "as_of_date": "2026-06-17",
+      "item_id": "weather-2026-06-17-001",
+      "headline": "Bengaluru Urban: Warm conditions -- modest cooling-demand pressure (max 30.4C)",
+      "source_reference": "local:data/historical/weather/2026-06-17/bengaluru.json",
+      "source_file": "data/ingested/weather/2026-06-17.json",
+      "fields_to_check": {
+        "temperature_2m_max_c": {
+          "extracted_value": 30.4,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_min_c": {
+          "extracted_value": 21.7,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_mean_c": {
+          "extracted_value": 25.7,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "relative_humidity_2m_mean_pct": {
+          "extracted_value": 69,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "precipitation_sum_mm": {
+          "extracted_value": 1.7,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "wind_speed_10m_max_kmh": {
+          "extracted_value": 12.7,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "weather",
+      "as_of_date": "2026-07-02",
+      "item_id": "weather-2026-07-02-001",
+      "headline": "Bengaluru Urban: Mild conditions -- limited cooling-demand impact (max 28.9C)",
+      "source_reference": "local:data/historical/weather/2026-07-02/bengaluru.json",
+      "source_file": "data/ingested/weather/2026-07-02.json",
+      "fields_to_check": {
+        "temperature_2m_max_c": {
+          "extracted_value": 28.9,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_min_c": {
+          "extracted_value": 20.8,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_mean_c": {
+          "extracted_value": 24.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "relative_humidity_2m_mean_pct": {
+          "extracted_value": 75,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "precipitation_sum_mm": {
+          "extracted_value": 1.2,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "wind_speed_10m_max_kmh": {
+          "extracted_value": 24.1,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "weather",
+      "as_of_date": "2026-05-18",
+      "item_id": "weather-2026-05-18-002",
+      "headline": "Bengaluru Urban: Moderate rainfall -- some hydro inflow benefit, mild demand dampening (31.0mm)",
+      "source_reference": "local:data/historical/weather/2026-05-18/bengaluru.json",
+      "source_file": "data/ingested/weather/2026-05-18.json",
+      "fields_to_check": {
+        "temperature_2m_max_c": {
+          "extracted_value": 33.2,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_min_c": {
+          "extracted_value": 22.5,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_mean_c": {
+          "extracted_value": 25.4,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "relative_humidity_2m_mean_pct": {
+          "extracted_value": 78,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "precipitation_sum_mm": {
+          "extracted_value": 31.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "wind_speed_10m_max_kmh": {
+          "extracted_value": 14.9,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "weather",
+      "as_of_date": "2026-06-07",
+      "item_id": "weather-2026-06-07-001",
+      "headline": "Bengaluru Urban: Mild conditions -- limited cooling-demand impact (max 28.9C)",
+      "source_reference": "local:data/historical/weather/2026-06-07/bengaluru.json",
+      "source_file": "data/ingested/weather/2026-06-07.json",
+      "fields_to_check": {
+        "temperature_2m_max_c": {
+          "extracted_value": 28.9,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_min_c": {
+          "extracted_value": 20.9,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_mean_c": {
+          "extracted_value": 24.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "relative_humidity_2m_mean_pct": {
+          "extracted_value": 79,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "precipitation_sum_mm": {
+          "extracted_value": 3.7,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "wind_speed_10m_max_kmh": {
+          "extracted_value": 15.2,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "weather",
+      "as_of_date": "2026-05-24",
+      "item_id": "weather-2026-05-24-001",
+      "headline": "Bengaluru Urban: Mild conditions -- limited cooling-demand impact (max 29.9C)",
+      "source_reference": "local:data/historical/weather/2026-05-24/bengaluru.json",
+      "source_file": "data/ingested/weather/2026-05-24.json",
+      "fields_to_check": {
+        "temperature_2m_max_c": {
+          "extracted_value": 29.9,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_min_c": {
+          "extracted_value": 21.3,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "temperature_2m_mean_c": {
+          "extracted_value": 24.9,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "relative_humidity_2m_mean_pct": {
+          "extracted_value": 77,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "precipitation_sum_mm": {
+          "extracted_value": 3.9,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "wind_speed_10m_max_kmh": {
+          "extracted_value": 14.9,
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "outage",
+      "as_of_date": "2026-06-03",
+      "item_id": "outage-2026-06-03-004",
+      "headline": "RAICHUR TPS unit 8: 250.0 MW affected",
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/03-06-2026/dgr10-2026-06-03.pdf",
+      "source_file": "data/ingested/outages/2026-06-03.json",
+      "fields_to_check": {
+        "station": {
+          "extracted_value": "RAICHUR TPS",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "unit": {
+          "extracted_value": "8",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "planned_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_major_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_minor_mw": {
+          "extracted_value": 250.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "others_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_date": {
+          "extracted_value": "26/05/2026",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_time": {
+          "extracted_value": "18:37",
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "outage",
+      "as_of_date": "2026-06-24",
+      "item_id": "outage-2026-06-24-003",
+      "headline": "RAICHUR TPS unit 1: 210.0 MW affected",
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/24-06-2026/dgr10-2026-06-24.pdf",
+      "source_file": "data/ingested/outages/2026-06-24.json",
+      "fields_to_check": {
+        "station": {
+          "extracted_value": "RAICHUR TPS",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "unit": {
+          "extracted_value": "1",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "planned_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_major_mw": {
+          "extracted_value": 210.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_minor_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "others_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_date": {
+          "extracted_value": "15/03/2024",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_time": {
+          "extracted_value": "00:00",
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "outage",
+      "as_of_date": "2026-05-05",
+      "item_id": "outage-2026-05-05-001",
+      "headline": "KAIGA unit 1: 220.0 MW affected",
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/05-05-2026/dgr10-2026-05-05.pdf",
+      "source_file": "data/ingested/outages/2026-05-05.json",
+      "fields_to_check": {
+        "station": {
+          "extracted_value": "KAIGA",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "unit": {
+          "extracted_value": "1",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "planned_mw": {
+          "extracted_value": 220.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_major_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_minor_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "others_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_date": {
+          "extracted_value": "31/03/2025",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_time": {
+          "extracted_value": "23:11",
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "outage",
+      "as_of_date": "2026-07-08",
+      "item_id": "outage-2026-07-08-005",
+      "headline": "RAICHUR TPS unit 4: 210.0 MW affected",
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/08-07-2026/dgr10-2026-07-08.pdf",
+      "source_file": "data/ingested/outages/2026-07-08.json",
+      "fields_to_check": {
+        "station": {
+          "extracted_value": "RAICHUR TPS",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "unit": {
+          "extracted_value": "4",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "planned_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_major_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_minor_mw": {
+          "extracted_value": 210.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "others_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_date": {
+          "extracted_value": "27/06/2026",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_time": {
+          "extracted_value": "03:10",
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "outage",
+      "as_of_date": "2026-06-04",
+      "item_id": "outage-2026-06-04-004",
+      "headline": "YERMARUS TPP unit 1: 800.0 MW affected",
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/04-06-2026/dgr10-2026-06-04.pdf",
+      "source_file": "data/ingested/outages/2026-06-04.json",
+      "fields_to_check": {
+        "station": {
+          "extracted_value": "YERMARUS TPP",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "unit": {
+          "extracted_value": "1",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "planned_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_major_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_minor_mw": {
+          "extracted_value": 800.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "others_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_date": {
+          "extracted_value": "04/06/2026",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_time": {
+          "extracted_value": "13:35",
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "outage",
+      "as_of_date": "2026-05-12",
+      "item_id": "outage-2026-05-12-006",
+      "headline": "ADANI POWER unit 2: 600.0 MW affected",
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/12-05-2026/dgr10-2026-05-12.pdf",
+      "source_file": "data/ingested/outages/2026-05-12.json",
+      "fields_to_check": {
+        "station": {
+          "extracted_value": "ADANI POWER",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "unit": {
+          "extracted_value": "2",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "planned_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_major_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_minor_mw": {
+          "extracted_value": 600.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "others_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_date": {
+          "extracted_value": "06/05/2026",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_time": {
+          "extracted_value": "00:01",
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "outage",
+      "as_of_date": "2026-05-20",
+      "item_id": "outage-2026-05-20-006",
+      "headline": "ADANI POWER unit 2: 600.0 MW affected",
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/20-05-2026/dgr10-2026-05-20.pdf",
+      "source_file": "data/ingested/outages/2026-05-20.json",
+      "fields_to_check": {
+        "station": {
+          "extracted_value": "ADANI POWER",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "unit": {
+          "extracted_value": "2",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "planned_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_major_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_minor_mw": {
+          "extracted_value": 600.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "others_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_date": {
+          "extracted_value": "06/05/2026",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_time": {
+          "extracted_value": "00:01",
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "outage",
+      "as_of_date": "2026-06-13",
+      "item_id": "outage-2026-06-13-005",
+      "headline": "BELLARY TPS unit 2: outage resolved",
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/13-06-2026/dgr10-2026-06-13.pdf",
+      "source_file": "data/ingested/outages/2026-06-13.json",
+      "fields_to_check": {
+        "station": {
+          "extracted_value": "BELLARY TPS",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "unit": {
+          "extracted_value": "2",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "planned_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_major_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "forced_minor_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "others_mw": {
+          "extracted_value": 0.0,
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_date": {
+          "extracted_value": "12/06/2026",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "start_time": {
+          "extracted_value": "10:39",
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "regulatory",
+      "as_of_date": "2026-07-17",
+      "item_id": "regulatory-2026-07-17-003",
+      "headline": "KERC issues draft amendment to Karnataka Electricity Distribution Code",
+      "source_reference": "https://www.eqmagpro.com/draft-karnataka-electricity-distribution-code-first-amendment-2026-eq/",
+      "source_file": "data/ingested/regulatory/2026-04-19_to_2026-07-17.json",
+      "fields_to_check": {
+        "filing_type": {
+          "extracted_value": "draft regulation amendment",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "commission": {
+          "extracted_value": "KERC",
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "regulatory",
+      "as_of_date": "2026-07-17",
+      "item_id": "regulatory-2026-07-17-002",
+      "headline": "KERC opens public hearing on solar tariff framework for 2026-2029",
+      "source_reference": "https://solarquarter.com/2026/07/03/kerc-schedules-public-hearing-on-solar-tariffs-and-regulatory-framework-for-2026-2029-in-karnataka/",
+      "source_file": "data/ingested/regulatory/2026-04-19_to_2026-07-17.json",
+      "fields_to_check": {
+        "filing_type": {
+          "extracted_value": "public notice / hearing announcement",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "commission": {
+          "extracted_value": "KERC",
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    },
+    {
+      "source": "regulatory",
+      "as_of_date": "2026-07-17",
+      "item_id": "regulatory-2026-07-17-001",
+      "headline": "KERC true-up order: BESCOM tariff up 56 paise/unit from May 2026",
+      "source_reference": "https://newsable.asianetnews.com/karnataka-news/kerc-issues-true-up-tariff-order-bescom-consumers-to-pay-56-paise-more-per-unit-articleshow-03ssvtv",
+      "source_file": "data/ingested/regulatory/2026-04-19_to_2026-07-17.json",
+      "fields_to_check": {
+        "filing_type": {
+          "extracted_value": "true-up tariff order",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "commission": {
+          "extracted_value": "KERC",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "effective_from": {
+          "extracted_value": "2026-05-01",
+          "ground_truth_value": null,
+          "correct": null
+        },
+        "effective_to": {
+          "extracted_value": "2027-04-30",
+          "ground_truth_value": null,
+          "correct": null
+        }
+      },
+      "reviewer_notes": ""
+    }
+  ]
+}
