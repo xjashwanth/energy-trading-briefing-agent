@@ -1,0 +1,192 @@
+{
+  "source": "outage",
+  "region": "Karnataka",
+  "as_of_date": "2026-07-14",
+  "generated_at": "2026-08-13T07:06:44Z",
+  "items": [
+    {
+      "item_id": "outage-2026-07-14-001",
+      "headline": "KAIGA unit 1: 220.0 MW affected",
+      "detail": "Outage at KAIGA unit 1, 220.0 MW total affected capacity (planned 220.0, forced-major 0.0, forced-minor 0.0, others 0.0). Period: 31/03/2025 (ongoing, no end date reported). Reason: MISCELLANEOUS PLANNED MAINTENANCE.",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/14-07-2026/dgr10-2026-07-14.pdf",
+      "source_timestamp": "2026-07-19T17:39:40Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": "Uttara Kannada",
+      "raw_values": {
+        "station": "KAIGA",
+        "unit": "1",
+        "planned_mw": 220.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "31/03/2025",
+        "start_time": "23:11",
+        "end_date": null,
+        "end_time": null,
+        "reason": "MISCELLANEOUS PLANNED MAINTENANCE"
+      }
+    },
+    {
+      "item_id": "outage-2026-07-14-002",
+      "headline": "BELLARY TPS unit 1: 0.0 MW affected",
+      "detail": "Outage at BELLARY TPS unit 1, 0.0 MW total affected capacity (planned 0.0, forced-major 0.0, forced-minor 0.0, others 0.0). Period: 14/07/2026 to 14/07/2026. Reason: REVERSE POWER RELAY OPERATION.",
+      "materiality_score": 1,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/14-07-2026/dgr10-2026-07-14.pdf",
+      "source_timestamp": "2026-07-19T17:39:40Z",
+      "delta_from_previous": "New outage since prior day's report",
+      "grid_zone": "Ballari",
+      "raw_values": {
+        "station": "BELLARY TPS",
+        "unit": "1",
+        "planned_mw": 0.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "14/07/2026",
+        "start_time": "16:57",
+        "end_date": "14/07/2026",
+        "end_time": "17:59",
+        "reason": "REVERSE POWER RELAY OPERATION"
+      }
+    },
+    {
+      "item_id": "outage-2026-07-14-003",
+      "headline": "RAICHUR TPS unit 1: 210.0 MW affected",
+      "detail": "Outage at RAICHUR TPS unit 1, 210.0 MW total affected capacity (planned 0.0, forced-major 210.0, forced-minor 0.0, others 0.0). Period: 15/03/2024 (ongoing, no end date reported). Reason: COAL FEEDING SYSTEM FAILURE..",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/14-07-2026/dgr10-2026-07-14.pdf",
+      "source_timestamp": "2026-07-19T17:39:40Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "1",
+        "planned_mw": 0.0,
+        "forced_major_mw": 210.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "15/03/2024",
+        "start_time": "00:00",
+        "end_date": null,
+        "end_time": null,
+        "reason": "COAL FEEDING SYSTEM FAILURE."
+      }
+    },
+    {
+      "item_id": "outage-2026-07-14-004",
+      "headline": "RAICHUR TPS unit 4: 210.0 MW affected",
+      "detail": "Outage at RAICHUR TPS unit 4, 210.0 MW total affected capacity (planned 0.0, forced-major 210.0, forced-minor 0.0, others 0.0). Period: 27/06/2026 (ongoing, no end date reported). Reason: MAJOR REPAIRS IN BOILER.",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/14-07-2026/dgr10-2026-07-14.pdf",
+      "source_timestamp": "2026-07-19T17:39:40Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "4",
+        "planned_mw": 0.0,
+        "forced_major_mw": 210.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "27/06/2026",
+        "start_time": "03:10",
+        "end_date": null,
+        "end_time": null,
+        "reason": "MAJOR REPAIRS IN BOILER"
+      }
+    },
+    {
+      "item_id": "outage-2026-07-14-005",
+      "headline": "RAICHUR TPS unit 7: 0.0 MW affected",
+      "detail": "Outage at RAICHUR TPS unit 7, 0.0 MW total affected capacity (planned 0.0, forced-major 0.0, forced-minor 0.0, others 0.0). Period: 14/07/2026 to 14/07/2026. Reason: TURBINE MISC. PROBLEMS Sub-Report-10 Date& Time of Expected/sync Planned Forced Forced Others Maintenance Date of Return Reasons/Present Status State/System Power Station Unit No. Maintenance (MW) Maintenance Maintenance Maintenance (MW) (Major) (MW) (Minor) (MW) DD/MM/YYYY DD/MM/YYYY HH24:MM HH24:MM 1 2 3 4 5 6 7 8 9 10.",
+      "materiality_score": 1,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/14-07-2026/dgr10-2026-07-14.pdf",
+      "source_timestamp": "2026-07-19T17:39:40Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "7",
+        "planned_mw": 0.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "14/07/2026",
+        "start_time": "10:47",
+        "end_date": "14/07/2026",
+        "end_time": "17:01",
+        "reason": "TURBINE MISC. PROBLEMS Sub-Report-10 Date& Time of Expected/sync Planned Forced Forced Others Maintenance Date of Return Reasons/Present Status State/System Power Station Unit No. Maintenance (MW) Maintenance Maintenance Maintenance (MW) (Major) (MW) (Minor) (MW) DD/MM/YYYY DD/MM/YYYY HH24:MM HH24:MM 1 2 3 4 5 6 7 8 9 10"
+      }
+    },
+    {
+      "item_id": "outage-2026-07-14-006",
+      "headline": "TORANGALLU TPS unit 3: 300.0 MW affected",
+      "detail": "Outage at TORANGALLU TPS unit 3, 300.0 MW total affected capacity (planned 300.0, forced-major 0.0, forced-minor 0.0, others 0.0). Period: 01/07/2026 (ongoing, no end date reported). Reason: R AND M / REFURBISHMENT (SBU-II) WORKS.",
+      "materiality_score": 3,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/14-07-2026/dgr10-2026-07-14.pdf",
+      "source_timestamp": "2026-07-19T17:39:40Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": "Ballari",
+      "raw_values": {
+        "station": "TORANGALLU TPS",
+        "unit": "3",
+        "planned_mw": 300.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "01/07/2026",
+        "start_time": "04:05",
+        "end_date": null,
+        "end_time": null,
+        "reason": "R AND M / REFURBISHMENT (SBU-II) WORKS"
+      }
+    },
+    {
+      "item_id": "outage-2026-07-14-007",
+      "headline": "BELLARY TPS unit 2: outage resolved",
+      "detail": "Outage at BELLARY TPS unit 2 present in the prior day's report is no longer listed -- treated as resolved/returned to service.",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/14-07-2026/dgr10-2026-07-14.pdf",
+      "source_timestamp": "2026-07-19T17:39:40Z",
+      "delta_from_previous": "Resolved since prior day's report",
+      "grid_zone": "Ballari",
+      "raw_values": {
+        "station": "BELLARY TPS",
+        "unit": "2",
+        "planned_mw": 0.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 500.0,
+        "others_mw": 0.0,
+        "start_date": "10/07/2026",
+        "start_time": "07:16",
+        "end_date": "13/07/2026",
+        "end_time": "21:50",
+        "reason": "WATER WALL TUBE LEAKAGE"
+      }
+    },
+    {
+      "item_id": "outage-2026-07-14-008",
+      "headline": "RAICHUR TPS unit 8: outage resolved",
+      "detail": "Outage at RAICHUR TPS unit 8 present in the prior day's report is no longer listed -- treated as resolved/returned to service.",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/14-07-2026/dgr10-2026-07-14.pdf",
+      "source_timestamp": "2026-07-19T17:39:40Z",
+      "delta_from_previous": "Resolved since prior day's report",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "8",
+        "planned_mw": 250.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "12/07/2026",
+        "start_time": "23:59",
+        "end_date": "13/07/2026",
+        "end_time": "21:44",
+        "reason": "SCHEDULED ANNUAL MAINTENANCE"
+      }
+    }
+  ]
+}

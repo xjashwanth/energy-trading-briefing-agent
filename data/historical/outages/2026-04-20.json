@@ -1,0 +1,36 @@
+{
+  "source": "outage",
+  "region": "Karnataka",
+  "as_of_date": "2026-04-20",
+  "generated_at": "2026-07-19T17:35:11Z",
+  "source_pdf": "https://npp.gov.in/public-reports/cea/daily/dgr/20-04-2026/dgr10-2026-04-20.pdf",
+  "raw_pdf_local_copy": "data/historical/outages/raw_pdfs/2026-04-20.pdf",
+  "rows": [
+    {
+      "station": "KAIGA",
+      "unit": "1",
+      "planned_mw": 220.0,
+      "forced_major_mw": 0.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "31/03/2025",
+      "start_time": "23:11",
+      "end_date": null,
+      "end_time": null,
+      "reason": "MISCELLANEOUS PLANNED MAINTENANCE"
+    },
+    {
+      "station": "RAICHUR TPS",
+      "unit": "1",
+      "planned_mw": 0.0,
+      "forced_major_mw": 210.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "15/03/2024",
+      "start_time": "00:00",
+      "end_date": null,
+      "end_time": null,
+      "reason": "COAL FEEDING SYSTEM FAILURE."
+    }
+  ]
+}

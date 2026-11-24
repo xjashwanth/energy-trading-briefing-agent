@@ -1,0 +1,62 @@
+{
+  "source": "outage",
+  "region": "Karnataka",
+  "as_of_date": "2026-06-16",
+  "generated_at": "2026-07-19T17:38:08Z",
+  "source_pdf": "https://npp.gov.in/public-reports/cea/daily/dgr/16-06-2026/dgr10-2026-06-16.pdf",
+  "raw_pdf_local_copy": "data/historical/outages/raw_pdfs/2026-06-16.pdf",
+  "rows": [
+    {
+      "station": "KAIGA",
+      "unit": "1",
+      "planned_mw": 220.0,
+      "forced_major_mw": 0.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "31/03/2025",
+      "start_time": "23:11",
+      "end_date": null,
+      "end_time": null,
+      "reason": "MISCELLANEOUS PLANNED MAINTENANCE"
+    },
+    {
+      "station": "RAICHUR TPS",
+      "unit": "1",
+      "planned_mw": 0.0,
+      "forced_major_mw": 210.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "15/03/2024",
+      "start_time": "00:00",
+      "end_date": null,
+      "end_time": null,
+      "reason": "COAL FEEDING SYSTEM FAILURE."
+    },
+    {
+      "station": "RAICHUR TPS",
+      "unit": "8",
+      "planned_mw": 0.0,
+      "forced_major_mw": 250.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "26/05/2026",
+      "start_time": "18:37",
+      "end_date": null,
+      "end_time": null,
+      "reason": "WATER WALL TUBE LEAKAGE"
+    },
+    {
+      "station": "ADANI POWER",
+      "unit": "1",
+      "planned_mw": 0.0,
+      "forced_major_mw": 0.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "14/06/2026",
+      "start_time": "00:04",
+      "end_date": "16/06/2026",
+      "end_time": "11:00",
+      "reason": "RSD/LOW SCHEDULE LIMITED UDUPI TPP Sub-Report-10 Date& Time of Expected/sync Planned Forced Forced Others Maintenance Date of Return Reasons/Present Status State/System Power Station Unit No. Maintenance (MW) Maintenance Maintenance Maintenance (MW) (Major) (MW) (Minor) (MW) DD/MM/YYYY DD/MM/YYYY HH24:MM HH24:MM 1 2 3 4 5 6 7 8 9 10"
+    }
+  ]
+}

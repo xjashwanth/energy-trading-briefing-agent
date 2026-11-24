@@ -1,0 +1,54 @@
+{
+  "source": "outage",
+  "region": "Karnataka",
+  "as_of_date": "2026-04-20",
+  "generated_at": "2026-08-13T07:06:43Z",
+  "items": [
+    {
+      "item_id": "outage-2026-04-20-001",
+      "headline": "KAIGA unit 1: 220.0 MW affected",
+      "detail": "Outage at KAIGA unit 1, 220.0 MW total affected capacity (planned 220.0, forced-major 0.0, forced-minor 0.0, others 0.0). Period: 31/03/2025 (ongoing, no end date reported). Reason: MISCELLANEOUS PLANNED MAINTENANCE.",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/20-04-2026/dgr10-2026-04-20.pdf",
+      "source_timestamp": "2026-07-19T17:35:11Z",
+      "delta_from_previous": "New outage since prior day's report",
+      "grid_zone": "Uttara Kannada",
+      "raw_values": {
+        "station": "KAIGA",
+        "unit": "1",
+        "planned_mw": 220.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "31/03/2025",
+        "start_time": "23:11",
+        "end_date": null,
+        "end_time": null,
+        "reason": "MISCELLANEOUS PLANNED MAINTENANCE"
+      }
+    },
+    {
+      "item_id": "outage-2026-04-20-002",
+      "headline": "RAICHUR TPS unit 1: 210.0 MW affected",
+      "detail": "Outage at RAICHUR TPS unit 1, 210.0 MW total affected capacity (planned 0.0, forced-major 210.0, forced-minor 0.0, others 0.0). Period: 15/03/2024 (ongoing, no end date reported). Reason: COAL FEEDING SYSTEM FAILURE..",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/20-04-2026/dgr10-2026-04-20.pdf",
+      "source_timestamp": "2026-07-19T17:35:11Z",
+      "delta_from_previous": "New outage since prior day's report",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "1",
+        "planned_mw": 0.0,
+        "forced_major_mw": 210.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "15/03/2024",
+        "start_time": "00:00",
+        "end_date": null,
+        "end_time": null,
+        "reason": "COAL FEEDING SYSTEM FAILURE."
+      }
+    }
+  ]
+}

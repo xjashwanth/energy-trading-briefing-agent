@@ -1,0 +1,75 @@
+{
+  "source": "outage",
+  "region": "Karnataka",
+  "as_of_date": "2026-07-15",
+  "generated_at": "2026-07-19T17:39:43Z",
+  "source_pdf": "https://npp.gov.in/public-reports/cea/daily/dgr/15-07-2026/dgr10-2026-07-15.pdf",
+  "raw_pdf_local_copy": "data/historical/outages/raw_pdfs/2026-07-15.pdf",
+  "rows": [
+    {
+      "station": "KAIGA",
+      "unit": "1",
+      "planned_mw": 220.0,
+      "forced_major_mw": 0.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "31/03/2025",
+      "start_time": "23:11",
+      "end_date": null,
+      "end_time": null,
+      "reason": "MISCELLANEOUS PLANNED MAINTENANCE"
+    },
+    {
+      "station": "BELLARY TPS",
+      "unit": "2",
+      "planned_mw": 0.0,
+      "forced_major_mw": 0.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "15/07/2026",
+      "start_time": "12:15",
+      "end_date": "15/07/2026",
+      "end_time": "15:10",
+      "reason": "TURBINE VIBRATIONS HIGH"
+    },
+    {
+      "station": "RAICHUR TPS",
+      "unit": "1",
+      "planned_mw": 0.0,
+      "forced_major_mw": 210.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "15/03/2024",
+      "start_time": "00:00",
+      "end_date": null,
+      "end_time": null,
+      "reason": "COAL FEEDING SYSTEM FAILURE."
+    },
+    {
+      "station": "RAICHUR TPS",
+      "unit": "4",
+      "planned_mw": 0.0,
+      "forced_major_mw": 210.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "27/06/2026",
+      "start_time": "03:10",
+      "end_date": null,
+      "end_time": null,
+      "reason": "MAJOR REPAIRS IN BOILER"
+    },
+    {
+      "station": "TORANGALLU TPS",
+      "unit": "3",
+      "planned_mw": 300.0,
+      "forced_major_mw": 0.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "01/07/2026",
+      "start_time": "04:05",
+      "end_date": null,
+      "end_time": null,
+      "reason": "R AND M / REFURBISHMENT (SBU-II) WORKS"
+    }
+  ]
+}

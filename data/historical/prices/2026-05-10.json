@@ -1,0 +1,884 @@
+{
+  "source": "price",
+  "region": "Southern (IEX area price, used as Karnataka proxy)",
+  "as_of_date": "2026-05-10",
+  "generated_at": "2026-07-19T17:40:14Z",
+  "summary": {
+    "avg_mcp_rs_per_mwh": 3137.1,
+    "max_mcp_rs_per_mwh": 10000.0,
+    "min_mcp_rs_per_mwh": 200.35,
+    "peak_hours_avg_mcp_rs_per_mwh": 5527.07,
+    "total_scheduled_volume_mwh": 164741.64,
+    "n_blocks": 96
+  },
+  "delta_from_previous_day": {
+    "avg_mcp_change_rs_per_mwh": -1066.8,
+    "avg_mcp_change_pct": -25.4
+  },
+  "blocks": [
+    {
+      "date": "10-05-2026",
+      "time_block": "00:00 - 00:15",
+      "purchase_bid_mw": 14957.1,
+      "sell_bid_mw": 6986.4,
+      "mcv_mw": 6163.9,
+      "final_scheduled_volume_mw": 6163.9,
+      "mcp_rs_per_mwh": 10000.0
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "00:15 - 00:30",
+      "purchase_bid_mw": 14924.6,
+      "sell_bid_mw": 7254.5,
+      "mcv_mw": 6431.99,
+      "final_scheduled_volume_mw": 6431.99,
+      "mcp_rs_per_mwh": 10000.0
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "00:30 - 00:45",
+      "purchase_bid_mw": 14653.0,
+      "sell_bid_mw": 7736.5,
+      "mcv_mw": 6604.1,
+      "final_scheduled_volume_mw": 6604.1,
+      "mcp_rs_per_mwh": 5999.73
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "00:45 - 01:00",
+      "purchase_bid_mw": 14285.5,
+      "sell_bid_mw": 8240.1,
+      "mcv_mw": 6789.32,
+      "final_scheduled_volume_mw": 6789.32,
+      "mcp_rs_per_mwh": 5499.09
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "01:00 - 01:15",
+      "purchase_bid_mw": 13638.6,
+      "sell_bid_mw": 8912.0,
+      "mcv_mw": 7293.99,
+      "final_scheduled_volume_mw": 7293.99,
+      "mcp_rs_per_mwh": 5400.04
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "01:15 - 01:30",
+      "purchase_bid_mw": 13430.3,
+      "sell_bid_mw": 8608.6,
+      "mcv_mw": 7088.1,
+      "final_scheduled_volume_mw": 7088.1,
+      "mcp_rs_per_mwh": 5100.93
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "01:30 - 01:45",
+      "purchase_bid_mw": 13374.4,
+      "sell_bid_mw": 8163.5,
+      "mcv_mw": 6723.0,
+      "final_scheduled_volume_mw": 6723.0,
+      "mcp_rs_per_mwh": 5400.4
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "01:45 - 02:00",
+      "purchase_bid_mw": 12981.7,
+      "sell_bid_mw": 8707.2,
+      "mcv_mw": 6738.28,
+      "final_scheduled_volume_mw": 6738.28,
+      "mcp_rs_per_mwh": 4937.01
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "02:00 - 02:15",
+      "purchase_bid_mw": 13019.6,
+      "sell_bid_mw": 9537.8,
+      "mcv_mw": 6879.23,
+      "final_scheduled_volume_mw": 6879.23,
+      "mcp_rs_per_mwh": 4919.82
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "02:15 - 02:30",
+      "purchase_bid_mw": 12936.4,
+      "sell_bid_mw": 10034.4,
+      "mcv_mw": 6807.33,
+      "final_scheduled_volume_mw": 6807.33,
+      "mcp_rs_per_mwh": 4819.99
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "02:30 - 02:45",
+      "purchase_bid_mw": 12958.8,
+      "sell_bid_mw": 10217.8,
+      "mcv_mw": 6597.88,
+      "final_scheduled_volume_mw": 6597.88,
+      "mcp_rs_per_mwh": 4769.74
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "02:45 - 03:00",
+      "purchase_bid_mw": 12574.4,
+      "sell_bid_mw": 10475.6,
+      "mcv_mw": 6432.85,
+      "final_scheduled_volume_mw": 6432.85,
+      "mcp_rs_per_mwh": 4539.56
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "03:00 - 03:15",
+      "purchase_bid_mw": 12315.5,
+      "sell_bid_mw": 10956.1,
+      "mcv_mw": 6274.6,
+      "final_scheduled_volume_mw": 6274.6,
+      "mcp_rs_per_mwh": 4199.89
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "03:15 - 03:30",
+      "purchase_bid_mw": 12397.0,
+      "sell_bid_mw": 11371.9,
+      "mcv_mw": 6343.56,
+      "final_scheduled_volume_mw": 6343.56,
+      "mcp_rs_per_mwh": 4113.04
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "03:30 - 03:45",
+      "purchase_bid_mw": 12128.6,
+      "sell_bid_mw": 11879.5,
+      "mcv_mw": 6165.81,
+      "final_scheduled_volume_mw": 6165.81,
+      "mcp_rs_per_mwh": 4034.58
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "03:45 - 04:00",
+      "purchase_bid_mw": 11965.8,
+      "sell_bid_mw": 12100.4,
+      "mcv_mw": 6193.1,
+      "final_scheduled_volume_mw": 6193.1,
+      "mcp_rs_per_mwh": 4000.05
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "04:00 - 04:15",
+      "purchase_bid_mw": 11788.5,
+      "sell_bid_mw": 12427.4,
+      "mcv_mw": 6167.23,
+      "final_scheduled_volume_mw": 6167.23,
+      "mcp_rs_per_mwh": 3849.41
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "04:15 - 04:30",
+      "purchase_bid_mw": 12031.3,
+      "sell_bid_mw": 12578.2,
+      "mcv_mw": 6322.64,
+      "final_scheduled_volume_mw": 6322.64,
+      "mcp_rs_per_mwh": 3996.89
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "04:30 - 04:45",
+      "purchase_bid_mw": 12096.5,
+      "sell_bid_mw": 12682.2,
+      "mcv_mw": 6328.85,
+      "final_scheduled_volume_mw": 6328.85,
+      "mcp_rs_per_mwh": 4000.16
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "04:45 - 05:00",
+      "purchase_bid_mw": 12093.0,
+      "sell_bid_mw": 12804.2,
+      "mcv_mw": 6320.53,
+      "final_scheduled_volume_mw": 6320.53,
+      "mcp_rs_per_mwh": 4000.2
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "05:00 - 05:15",
+      "purchase_bid_mw": 11196.1,
+      "sell_bid_mw": 12432.4,
+      "mcv_mw": 6136.69,
+      "final_scheduled_volume_mw": 6136.69,
+      "mcp_rs_per_mwh": 3600.92
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "05:15 - 05:30",
+      "purchase_bid_mw": 11672.5,
+      "sell_bid_mw": 11930.1,
+      "mcv_mw": 6192.13,
+      "final_scheduled_volume_mw": 6192.13,
+      "mcp_rs_per_mwh": 3759.41
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "05:30 - 05:45",
+      "purchase_bid_mw": 11983.6,
+      "sell_bid_mw": 12725.1,
+      "mcv_mw": 6192.8,
+      "final_scheduled_volume_mw": 6192.8,
+      "mcp_rs_per_mwh": 3790.79
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "05:45 - 06:00",
+      "purchase_bid_mw": 11785.6,
+      "sell_bid_mw": 13641.7,
+      "mcv_mw": 6254.93,
+      "final_scheduled_volume_mw": 6254.93,
+      "mcp_rs_per_mwh": 3569.58
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "06:00 - 06:15",
+      "purchase_bid_mw": 11037.9,
+      "sell_bid_mw": 15131.9,
+      "mcv_mw": 6382.45,
+      "final_scheduled_volume_mw": 6382.45,
+      "mcp_rs_per_mwh": 3470.44
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "06:15 - 06:30",
+      "purchase_bid_mw": 10963.1,
+      "sell_bid_mw": 16097.6,
+      "mcv_mw": 6346.64,
+      "final_scheduled_volume_mw": 6346.64,
+      "mcp_rs_per_mwh": 3391.89
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "06:30 - 06:45",
+      "purchase_bid_mw": 11016.2,
+      "sell_bid_mw": 17646.5,
+      "mcv_mw": 6036.4,
+      "final_scheduled_volume_mw": 6036.4,
+      "mcp_rs_per_mwh": 3250.88
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "06:45 - 07:00",
+      "purchase_bid_mw": 10479.8,
+      "sell_bid_mw": 19768.5,
+      "mcv_mw": 5748.7,
+      "final_scheduled_volume_mw": 5748.7,
+      "mcp_rs_per_mwh": 3200.48
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "07:00 - 07:15",
+      "purchase_bid_mw": 10363.1,
+      "sell_bid_mw": 21221.5,
+      "mcv_mw": 5609.89,
+      "final_scheduled_volume_mw": 5609.89,
+      "mcp_rs_per_mwh": 3000.25
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "07:15 - 07:30",
+      "purchase_bid_mw": 9531.3,
+      "sell_bid_mw": 25045.9,
+      "mcv_mw": 5761.3,
+      "final_scheduled_volume_mw": 5761.3,
+      "mcp_rs_per_mwh": 2140.3
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "07:30 - 07:45",
+      "purchase_bid_mw": 8458.3,
+      "sell_bid_mw": 28929.9,
+      "mcv_mw": 5966.5,
+      "final_scheduled_volume_mw": 5966.5,
+      "mcp_rs_per_mwh": 1593.69
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "07:45 - 08:00",
+      "purchase_bid_mw": 7919.9,
+      "sell_bid_mw": 33713.9,
+      "mcv_mw": 5997.3,
+      "final_scheduled_volume_mw": 5997.3,
+      "mcp_rs_per_mwh": 200.84
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "08:00 - 08:15",
+      "purchase_bid_mw": 6979.9,
+      "sell_bid_mw": 39392.3,
+      "mcv_mw": 5710.73,
+      "final_scheduled_volume_mw": 5710.73,
+      "mcp_rs_per_mwh": 200.66
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "08:15 - 08:30",
+      "purchase_bid_mw": 7219.4,
+      "sell_bid_mw": 42943.2,
+      "mcv_mw": 5950.23,
+      "final_scheduled_volume_mw": 5950.23,
+      "mcp_rs_per_mwh": 200.66
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "08:30 - 08:45",
+      "purchase_bid_mw": 7350.7,
+      "sell_bid_mw": 47838.6,
+      "mcv_mw": 6081.53,
+      "final_scheduled_volume_mw": 6081.53,
+      "mcp_rs_per_mwh": 200.68
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "08:45 - 09:00",
+      "purchase_bid_mw": 7346.0,
+      "sell_bid_mw": 50840.7,
+      "mcv_mw": 6076.84,
+      "final_scheduled_volume_mw": 6076.84,
+      "mcp_rs_per_mwh": 200.59
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "09:00 - 09:15",
+      "purchase_bid_mw": 8283.6,
+      "sell_bid_mw": 54749.4,
+      "mcv_mw": 7214.41,
+      "final_scheduled_volume_mw": 7214.41,
+      "mcp_rs_per_mwh": 200.85
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "09:15 - 09:30",
+      "purchase_bid_mw": 8290.3,
+      "sell_bid_mw": 56794.8,
+      "mcv_mw": 7221.14,
+      "final_scheduled_volume_mw": 7221.14,
+      "mcp_rs_per_mwh": 200.64
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "09:30 - 09:45",
+      "purchase_bid_mw": 8233.3,
+      "sell_bid_mw": 58471.2,
+      "mcv_mw": 7164.14,
+      "final_scheduled_volume_mw": 7164.14,
+      "mcp_rs_per_mwh": 200.58
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "09:45 - 10:00",
+      "purchase_bid_mw": 8129.0,
+      "sell_bid_mw": 60096.2,
+      "mcv_mw": 7059.88,
+      "final_scheduled_volume_mw": 7059.88,
+      "mcp_rs_per_mwh": 200.35
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "10:00 - 10:15",
+      "purchase_bid_mw": 8665.8,
+      "sell_bid_mw": 61587.4,
+      "mcv_mw": 7574.87,
+      "final_scheduled_volume_mw": 7574.87,
+      "mcp_rs_per_mwh": 200.43
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "10:15 - 10:30",
+      "purchase_bid_mw": 9000.1,
+      "sell_bid_mw": 61503.6,
+      "mcv_mw": 7909.14,
+      "final_scheduled_volume_mw": 7909.14,
+      "mcp_rs_per_mwh": 200.61
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "10:30 - 10:45",
+      "purchase_bid_mw": 9133.3,
+      "sell_bid_mw": 62151.0,
+      "mcv_mw": 8042.33,
+      "final_scheduled_volume_mw": 8042.33,
+      "mcp_rs_per_mwh": 200.67
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "10:45 - 11:00",
+      "purchase_bid_mw": 9391.0,
+      "sell_bid_mw": 62282.2,
+      "mcv_mw": 8300.01,
+      "final_scheduled_volume_mw": 8300.01,
+      "mcp_rs_per_mwh": 200.8
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "11:00 - 11:15",
+      "purchase_bid_mw": 8999.9,
+      "sell_bid_mw": 63116.5,
+      "mcv_mw": 7908.88,
+      "final_scheduled_volume_mw": 7908.88,
+      "mcp_rs_per_mwh": 200.62
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "11:15 - 11:30",
+      "purchase_bid_mw": 9050.5,
+      "sell_bid_mw": 63902.6,
+      "mcv_mw": 7959.47,
+      "final_scheduled_volume_mw": 7959.47,
+      "mcp_rs_per_mwh": 200.65
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "11:30 - 11:45",
+      "purchase_bid_mw": 9182.9,
+      "sell_bid_mw": 63860.6,
+      "mcv_mw": 8091.86,
+      "final_scheduled_volume_mw": 8091.86,
+      "mcp_rs_per_mwh": 200.7
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "11:45 - 12:00",
+      "purchase_bid_mw": 9280.6,
+      "sell_bid_mw": 63272.8,
+      "mcv_mw": 8189.54,
+      "final_scheduled_volume_mw": 8189.54,
+      "mcp_rs_per_mwh": 200.79
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "12:00 - 12:15",
+      "purchase_bid_mw": 8416.7,
+      "sell_bid_mw": 62516.1,
+      "mcv_mw": 8025.66,
+      "final_scheduled_volume_mw": 8025.66,
+      "mcp_rs_per_mwh": 200.71
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "12:15 - 12:30",
+      "purchase_bid_mw": 8435.9,
+      "sell_bid_mw": 62669.3,
+      "mcv_mw": 8044.85,
+      "final_scheduled_volume_mw": 8044.85,
+      "mcp_rs_per_mwh": 200.72
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "12:30 - 12:45",
+      "purchase_bid_mw": 8261.9,
+      "sell_bid_mw": 62403.6,
+      "mcv_mw": 7870.87,
+      "final_scheduled_volume_mw": 7870.87,
+      "mcp_rs_per_mwh": 200.64
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "12:45 - 13:00",
+      "purchase_bid_mw": 8266.1,
+      "sell_bid_mw": 62327.4,
+      "mcv_mw": 7875.07,
+      "final_scheduled_volume_mw": 7875.07,
+      "mcp_rs_per_mwh": 200.65
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "13:00 - 13:15",
+      "purchase_bid_mw": 7748.8,
+      "sell_bid_mw": 62926.6,
+      "mcv_mw": 7357.83,
+      "final_scheduled_volume_mw": 7357.83,
+      "mcp_rs_per_mwh": 200.43
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "13:15 - 13:30",
+      "purchase_bid_mw": 7671.7,
+      "sell_bid_mw": 63194.8,
+      "mcv_mw": 7280.77,
+      "final_scheduled_volume_mw": 7280.77,
+      "mcp_rs_per_mwh": 200.41
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "13:30 - 13:45",
+      "purchase_bid_mw": 7719.1,
+      "sell_bid_mw": 61574.4,
+      "mcv_mw": 7328.17,
+      "final_scheduled_volume_mw": 7328.17,
+      "mcp_rs_per_mwh": 200.43
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "13:45 - 14:00",
+      "purchase_bid_mw": 7819.7,
+      "sell_bid_mw": 61144.3,
+      "mcv_mw": 7428.76,
+      "final_scheduled_volume_mw": 7428.76,
+      "mcp_rs_per_mwh": 200.48
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "14:00 - 14:15",
+      "purchase_bid_mw": 8320.7,
+      "sell_bid_mw": 59782.7,
+      "mcv_mw": 7229.75,
+      "final_scheduled_volume_mw": 7229.75,
+      "mcp_rs_per_mwh": 200.48
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "14:15 - 14:30",
+      "purchase_bid_mw": 8898.8,
+      "sell_bid_mw": 56863.6,
+      "mcv_mw": 7792.66,
+      "final_scheduled_volume_mw": 7792.66,
+      "mcp_rs_per_mwh": 299.85
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "14:30 - 14:45",
+      "purchase_bid_mw": 8991.8,
+      "sell_bid_mw": 52997.2,
+      "mcv_mw": 7690.7,
+      "final_scheduled_volume_mw": 7690.7,
+      "mcp_rs_per_mwh": 1000.11
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "14:45 - 15:00",
+      "purchase_bid_mw": 9216.6,
+      "sell_bid_mw": 50217.9,
+      "mcv_mw": 7763.68,
+      "final_scheduled_volume_mw": 7763.68,
+      "mcp_rs_per_mwh": 1100.24
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "15:00 - 15:15",
+      "purchase_bid_mw": 8969.6,
+      "sell_bid_mw": 46822.7,
+      "mcv_mw": 7303.9,
+      "final_scheduled_volume_mw": 7303.9,
+      "mcp_rs_per_mwh": 1399.13
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "15:15 - 15:30",
+      "purchase_bid_mw": 9429.4,
+      "sell_bid_mw": 45255.9,
+      "mcv_mw": 7687.1,
+      "final_scheduled_volume_mw": 7687.1,
+      "mcp_rs_per_mwh": 1799.11
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "15:30 - 15:45",
+      "purchase_bid_mw": 9475.2,
+      "sell_bid_mw": 41631.3,
+      "mcv_mw": 7710.8,
+      "final_scheduled_volume_mw": 7710.8,
+      "mcp_rs_per_mwh": 1949.74
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "15:45 - 16:00",
+      "purchase_bid_mw": 9504.8,
+      "sell_bid_mw": 39669.4,
+      "mcv_mw": 7619.38,
+      "final_scheduled_volume_mw": 7619.38,
+      "mcp_rs_per_mwh": 2000.75
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "16:00 - 16:15",
+      "purchase_bid_mw": 8908.0,
+      "sell_bid_mw": 34989.1,
+      "mcv_mw": 7026.5,
+      "final_scheduled_volume_mw": 7026.5,
+      "mcp_rs_per_mwh": 1969.66
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "16:15 - 16:30",
+      "purchase_bid_mw": 8836.4,
+      "sell_bid_mw": 33379.1,
+      "mcv_mw": 6837.1,
+      "final_scheduled_volume_mw": 6837.1,
+      "mcp_rs_per_mwh": 1949.87
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "16:30 - 16:45",
+      "purchase_bid_mw": 8405.8,
+      "sell_bid_mw": 30621.4,
+      "mcv_mw": 6406.1,
+      "final_scheduled_volume_mw": 6406.1,
+      "mcp_rs_per_mwh": 1929.43
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "16:45 - 17:00",
+      "purchase_bid_mw": 7814.6,
+      "sell_bid_mw": 28225.2,
+      "mcv_mw": 6052.9,
+      "final_scheduled_volume_mw": 6052.9,
+      "mcp_rs_per_mwh": 1649.0
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "17:00 - 17:15",
+      "purchase_bid_mw": 7450.4,
+      "sell_bid_mw": 25221.0,
+      "mcv_mw": 5911.4,
+      "final_scheduled_volume_mw": 5911.4,
+      "mcp_rs_per_mwh": 1840.07
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "17:15 - 17:30",
+      "purchase_bid_mw": 7888.2,
+      "sell_bid_mw": 23886.3,
+      "mcv_mw": 6120.7,
+      "final_scheduled_volume_mw": 6120.7,
+      "mcp_rs_per_mwh": 1968.2
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "17:30 - 17:45",
+      "purchase_bid_mw": 8356.8,
+      "sell_bid_mw": 18940.3,
+      "mcv_mw": 6325.09,
+      "final_scheduled_volume_mw": 6325.09,
+      "mcp_rs_per_mwh": 2000.61
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "17:45 - 18:00",
+      "purchase_bid_mw": 8415.4,
+      "sell_bid_mw": 17302.8,
+      "mcv_mw": 5989.89,
+      "final_scheduled_volume_mw": 5989.89,
+      "mcp_rs_per_mwh": 2090.37
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "18:00 - 18:15",
+      "purchase_bid_mw": 9775.6,
+      "sell_bid_mw": 18219.8,
+      "mcv_mw": 6904.7,
+      "final_scheduled_volume_mw": 6904.7,
+      "mcp_rs_per_mwh": 3099.47
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "18:15 - 18:30",
+      "purchase_bid_mw": 10567.1,
+      "sell_bid_mw": 16846.5,
+      "mcv_mw": 7229.2,
+      "final_scheduled_volume_mw": 7229.2,
+      "mcp_rs_per_mwh": 3630.65
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "18:30 - 18:45",
+      "purchase_bid_mw": 11258.0,
+      "sell_bid_mw": 15401.8,
+      "mcv_mw": 7377.4,
+      "final_scheduled_volume_mw": 7377.4,
+      "mcp_rs_per_mwh": 4169.78
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "18:45 - 19:00",
+      "purchase_bid_mw": 12159.5,
+      "sell_bid_mw": 14072.4,
+      "mcv_mw": 7836.7,
+      "final_scheduled_volume_mw": 7836.7,
+      "mcp_rs_per_mwh": 4259.26
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "19:00 - 19:15",
+      "purchase_bid_mw": 13149.0,
+      "sell_bid_mw": 13231.6,
+      "mcv_mw": 7601.0,
+      "final_scheduled_volume_mw": 7601.0,
+      "mcp_rs_per_mwh": 4799.0
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "19:15 - 19:30",
+      "purchase_bid_mw": 13294.8,
+      "sell_bid_mw": 12209.9,
+      "mcv_mw": 7699.4,
+      "final_scheduled_volume_mw": 7699.4,
+      "mcp_rs_per_mwh": 4819.8
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "19:30 - 19:45",
+      "purchase_bid_mw": 13275.1,
+      "sell_bid_mw": 11332.9,
+      "mcv_mw": 7658.0,
+      "final_scheduled_volume_mw": 7658.0,
+      "mcp_rs_per_mwh": 4919.79
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "19:45 - 20:00",
+      "purchase_bid_mw": 12983.0,
+      "sell_bid_mw": 10773.0,
+      "mcv_mw": 7246.05,
+      "final_scheduled_volume_mw": 7246.05,
+      "mcp_rs_per_mwh": 5000.45
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "20:00 - 20:15",
+      "purchase_bid_mw": 12962.5,
+      "sell_bid_mw": 11091.8,
+      "mcv_mw": 7413.9,
+      "final_scheduled_volume_mw": 7413.9,
+      "mcp_rs_per_mwh": 4919.81
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "20:15 - 20:30",
+      "purchase_bid_mw": 12938.7,
+      "sell_bid_mw": 10134.1,
+      "mcv_mw": 6772.89,
+      "final_scheduled_volume_mw": 6772.89,
+      "mcp_rs_per_mwh": 5500.71
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "20:30 - 20:45",
+      "purchase_bid_mw": 12939.6,
+      "sell_bid_mw": 9736.4,
+      "mcv_mw": 6629.7,
+      "final_scheduled_volume_mw": 6629.7,
+      "mcp_rs_per_mwh": 5799.66
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "20:45 - 21:00",
+      "purchase_bid_mw": 12957.4,
+      "sell_bid_mw": 9509.6,
+      "mcv_mw": 6558.3,
+      "final_scheduled_volume_mw": 6558.3,
+      "mcp_rs_per_mwh": 5969.77
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "21:00 - 21:15",
+      "purchase_bid_mw": 12742.0,
+      "sell_bid_mw": 9067.8,
+      "mcv_mw": 5995.6,
+      "final_scheduled_volume_mw": 5995.6,
+      "mcp_rs_per_mwh": 5846.94
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "21:15 - 21:30",
+      "purchase_bid_mw": 12460.2,
+      "sell_bid_mw": 9260.2,
+      "mcv_mw": 5839.6,
+      "final_scheduled_volume_mw": 5839.6,
+      "mcp_rs_per_mwh": 5750.68
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "21:30 - 21:45",
+      "purchase_bid_mw": 12684.3,
+      "sell_bid_mw": 9896.7,
+      "mcv_mw": 6174.2,
+      "final_scheduled_volume_mw": 6174.2,
+      "mcp_rs_per_mwh": 5499.75
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "21:45 - 22:00",
+      "purchase_bid_mw": 12848.7,
+      "sell_bid_mw": 9912.5,
+      "mcv_mw": 6411.4,
+      "final_scheduled_volume_mw": 6411.4,
+      "mcp_rs_per_mwh": 5613.22
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "22:00 - 22:15",
+      "purchase_bid_mw": 13321.2,
+      "sell_bid_mw": 9846.4,
+      "mcv_mw": 6800.6,
+      "final_scheduled_volume_mw": 6800.6,
+      "mcp_rs_per_mwh": 5750.3
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "22:15 - 22:30",
+      "purchase_bid_mw": 13753.3,
+      "sell_bid_mw": 9549.3,
+      "mcv_mw": 6958.7,
+      "final_scheduled_volume_mw": 6958.7,
+      "mcp_rs_per_mwh": 6000.16
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "22:30 - 22:45",
+      "purchase_bid_mw": 14059.5,
+      "sell_bid_mw": 9472.8,
+      "mcv_mw": 6990.1,
+      "final_scheduled_volume_mw": 6990.1,
+      "mcp_rs_per_mwh": 6000.65
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "22:45 - 23:00",
+      "purchase_bid_mw": 14187.4,
+      "sell_bid_mw": 9310.7,
+      "mcv_mw": 6882.0,
+      "final_scheduled_volume_mw": 6882.0,
+      "mcp_rs_per_mwh": 6500.46
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "23:00 - 23:15",
+      "purchase_bid_mw": 13877.8,
+      "sell_bid_mw": 9320.3,
+      "mcv_mw": 7133.9,
+      "final_scheduled_volume_mw": 7133.9,
+      "mcp_rs_per_mwh": 5999.54
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "23:15 - 23:30",
+      "purchase_bid_mw": 13931.0,
+      "sell_bid_mw": 8504.3,
+      "mcv_mw": 6885.49,
+      "final_scheduled_volume_mw": 6885.49,
+      "mcp_rs_per_mwh": 7600.05
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "23:30 - 23:45",
+      "purchase_bid_mw": 13721.7,
+      "sell_bid_mw": 8206.1,
+      "mcv_mw": 6824.7,
+      "final_scheduled_volume_mw": 6824.7,
+      "mcp_rs_per_mwh": 7599.89
+    },
+    {
+      "date": "10-05-2026",
+      "time_block": "23:45 - 24:00",
+      "purchase_bid_mw": 13476.0,
+      "sell_bid_mw": 8054.1,
+      "mcv_mw": 6716.4,
+      "final_scheduled_volume_mw": 6716.4,
+      "mcp_rs_per_mwh": 7599.98
+    }
+  ]
+}

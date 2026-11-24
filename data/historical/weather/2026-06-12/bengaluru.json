@@ -1,0 +1,13 @@
+{
+  "location": "Bengaluru",
+  "latitude": 12.970123,
+  "longitude": 77.56364,
+  "date": "2026-06-12",
+  "temperature_2m_max_c": 27.7,
+  "temperature_2m_min_c": 20.5,
+  "temperature_2m_mean_c": 23.5,
+  "relative_humidity_2m_mean_pct": 82,
+  "precipitation_sum_mm": 4.1,
+  "wind_speed_10m_max_kmh": 13.2,
+  "fetched_at": "2026-07-19T17:34:33Z"
+}

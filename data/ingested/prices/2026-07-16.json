@@ -1,0 +1,65 @@
+{
+  "source": "price",
+  "region": "Karnataka",
+  "as_of_date": "2026-07-16",
+  "generated_at": "2026-08-13T07:06:43Z",
+  "items": [
+    {
+      "item_id": "price-2026-07-16-001",
+      "headline": "Average DAM (Southern proxy) MCP: Rs 7048.93/MWh",
+      "detail": "Day-ahead market average clearing price for 2026-07-16 was Rs 7048.93/MWh across 96 15-min blocks (range Rs 1984.36-10000.0/MWh).",
+      "materiality_score": 3,
+      "source_reference": "local:data\\historical\\prices\\2026-07-16.json",
+      "source_timestamp": "2026-07-19T17:41:09Z",
+      "delta_from_previous": "+523.14 Rs/MWh (+8.0%) vs prior day",
+      "grid_zone": null,
+      "raw_values": {
+        "avg_mcp_rs_per_mwh": 7048.93,
+        "max_mcp_rs_per_mwh": 10000.0,
+        "min_mcp_rs_per_mwh": 1984.36,
+        "peak_hours_avg_mcp_rs_per_mwh": 9864.62,
+        "total_scheduled_volume_mwh": 161489.26,
+        "n_blocks": 96,
+        "region_note": "Karnataka has no standalone day-ahead price; this uses the IEX Southern-region area clearing price as a proxy (see scope-note.md)."
+      }
+    },
+    {
+      "item_id": "price-2026-07-16-002",
+      "headline": "Peak-hour (18:00-24:00) MCP premium: +39.9% vs daily avg",
+      "detail": "Peak-hour average MCP was Rs 9864.62/MWh vs the day's overall average of Rs 7048.93/MWh, a +39.9% divergence.",
+      "materiality_score": 4,
+      "source_reference": "local:data\\historical\\prices\\2026-07-16.json",
+      "source_timestamp": "2026-07-19T17:41:09Z",
+      "delta_from_previous": null,
+      "grid_zone": null,
+      "raw_values": {
+        "avg_mcp_rs_per_mwh": 7048.93,
+        "max_mcp_rs_per_mwh": 10000.0,
+        "min_mcp_rs_per_mwh": 1984.36,
+        "peak_hours_avg_mcp_rs_per_mwh": 9864.62,
+        "total_scheduled_volume_mwh": 161489.26,
+        "n_blocks": 96,
+        "region_note": "Karnataka has no standalone day-ahead price; this uses the IEX Southern-region area clearing price as a proxy (see scope-note.md)."
+      }
+    },
+    {
+      "item_id": "price-2026-07-16-003",
+      "headline": "Wide intraday MCP spread: 114% of daily average",
+      "detail": "Max-min spread of Rs 10000.0 - Rs 1984.36 = 114% of the daily average, indicating high intraday volatility.",
+      "materiality_score": 4,
+      "source_reference": "local:data\\historical\\prices\\2026-07-16.json",
+      "source_timestamp": "2026-07-19T17:41:09Z",
+      "delta_from_previous": null,
+      "grid_zone": null,
+      "raw_values": {
+        "avg_mcp_rs_per_mwh": 7048.93,
+        "max_mcp_rs_per_mwh": 10000.0,
+        "min_mcp_rs_per_mwh": 1984.36,
+        "peak_hours_avg_mcp_rs_per_mwh": 9864.62,
+        "total_scheduled_volume_mwh": 161489.26,
+        "n_blocks": 96,
+        "region_note": "Karnataka has no standalone day-ahead price; this uses the IEX Southern-region area clearing price as a proxy (see scope-note.md)."
+      }
+    }
+  ]
+}

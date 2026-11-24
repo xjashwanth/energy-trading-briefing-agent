@@ -1,0 +1,31 @@
+{
+  "source": "weather",
+  "region": "Karnataka",
+  "as_of_date": "2026-06-02",
+  "generated_at": "2026-08-13T07:06:43Z",
+  "items": [
+    {
+      "item_id": "weather-2026-06-02-001",
+      "headline": "Bengaluru Urban: Warm conditions -- modest cooling-demand pressure (max 30.9C)",
+      "detail": "Max temperature 30.9C, mean 26.0C, humidity 67%.",
+      "materiality_score": 2,
+      "source_reference": "local:data\\historical\\weather\\2026-06-02\\bengaluru.json",
+      "source_timestamp": "2026-07-19T17:34:25Z",
+      "delta_from_previous": "+1.5C vs prior day max",
+      "grid_zone": "Bengaluru Urban",
+      "raw_values": {
+        "location": "Bengaluru",
+        "latitude": 12.970123,
+        "longitude": 77.56364,
+        "date": "2026-06-02",
+        "temperature_2m_max_c": 30.9,
+        "temperature_2m_min_c": 22.1,
+        "temperature_2m_mean_c": 26.0,
+        "relative_humidity_2m_mean_pct": 67,
+        "precipitation_sum_mm": 3.6,
+        "wind_speed_10m_max_kmh": 9.8,
+        "fetched_at": "2026-07-19T17:34:25Z"
+      }
+    }
+  ]
+}

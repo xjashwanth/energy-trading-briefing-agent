@@ -1,0 +1,88 @@
+{
+  "source": "outage",
+  "region": "Karnataka",
+  "as_of_date": "2026-04-26",
+  "generated_at": "2026-07-19T17:35:28Z",
+  "source_pdf": "https://npp.gov.in/public-reports/cea/daily/dgr/26-04-2026/dgr10-2026-04-26.pdf",
+  "raw_pdf_local_copy": "data/historical/outages/raw_pdfs/2026-04-26.pdf",
+  "rows": [
+    {
+      "station": "KAIGA",
+      "unit": "1",
+      "planned_mw": 220.0,
+      "forced_major_mw": 0.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "31/03/2025",
+      "start_time": "23:11",
+      "end_date": null,
+      "end_time": null,
+      "reason": "MISCELLANEOUS PLANNED MAINTENANCE"
+    },
+    {
+      "station": "RAICHUR TPS",
+      "unit": "1",
+      "planned_mw": 0.0,
+      "forced_major_mw": 210.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "15/03/2024",
+      "start_time": "00:00",
+      "end_date": null,
+      "end_time": null,
+      "reason": "COAL FEEDING SYSTEM FAILURE."
+    },
+    {
+      "station": "RAICHUR TPS",
+      "unit": "3",
+      "planned_mw": 0.0,
+      "forced_major_mw": 0.0,
+      "forced_minor_mw": 210.0,
+      "others_mw": 0.0,
+      "start_date": "24/04/2026",
+      "start_time": "12:43",
+      "end_date": null,
+      "end_time": null,
+      "reason": "TURBINE VIBRATIONS HIGH"
+    },
+    {
+      "station": "RAICHUR TPS",
+      "unit": "5",
+      "planned_mw": 0.0,
+      "forced_major_mw": 0.0,
+      "forced_minor_mw": 0.0,
+      "others_mw": 0.0,
+      "start_date": "25/04/2026",
+      "start_time": "09:55",
+      "end_date": "26/04/2026",
+      "end_time": "06:30",
+      "reason": "WATER WALL TUBE LEAKAGE"
+    },
+    {
+      "station": "RAICHUR TPS",
+      "unit": "6",
+      "planned_mw": 0.0,
+      "forced_major_mw": 0.0,
+      "forced_minor_mw": 210.0,
+      "others_mw": 0.0,
+      "start_date": "26/04/2026",
+      "start_time": "00:36",
+      "end_date": null,
+      "end_time": null,
+      "reason": "WATER WALL TUBE LEAKAGE"
+    },
+    {
+      "station": "YERMARUS TPP",
+      "unit": "2",
+      "planned_mw": 0.0,
+      "forced_major_mw": 0.0,
+      "forced_minor_mw": 800.0,
+      "others_mw": 0.0,
+      "start_date": "25/04/2026",
+      "start_time": "00:00",
+      "end_date": null,
+      "end_time": null,
+      "reason": "SUPER HEATER TUBE LEAKAGE"
+    }
+  ]
+}

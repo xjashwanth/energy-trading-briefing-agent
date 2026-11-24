@@ -1,0 +1,146 @@
+{
+  "source": "outage",
+  "region": "Karnataka",
+  "as_of_date": "2026-05-25",
+  "generated_at": "2026-08-13T07:06:44Z",
+  "items": [
+    {
+      "item_id": "outage-2026-05-25-001",
+      "headline": "KAIGA unit 1: 220.0 MW affected",
+      "detail": "Outage at KAIGA unit 1, 220.0 MW total affected capacity (planned 220.0, forced-major 0.0, forced-minor 0.0, others 0.0). Period: 31/03/2025 (ongoing, no end date reported). Reason: MISCELLANEOUS PLANNED MAINTENANCE.",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/25-05-2026/dgr10-2026-05-25.pdf",
+      "source_timestamp": "2026-07-19T17:37:00Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": "Uttara Kannada",
+      "raw_values": {
+        "station": "KAIGA",
+        "unit": "1",
+        "planned_mw": 220.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "31/03/2025",
+        "start_time": "23:11",
+        "end_date": null,
+        "end_time": null,
+        "reason": "MISCELLANEOUS PLANNED MAINTENANCE"
+      }
+    },
+    {
+      "item_id": "outage-2026-05-25-002",
+      "headline": "RAICHUR TPS unit 1: 210.0 MW affected",
+      "detail": "Outage at RAICHUR TPS unit 1, 210.0 MW total affected capacity (planned 0.0, forced-major 210.0, forced-minor 0.0, others 0.0). Period: 15/03/2024 (ongoing, no end date reported). Reason: COAL FEEDING SYSTEM FAILURE..",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/25-05-2026/dgr10-2026-05-25.pdf",
+      "source_timestamp": "2026-07-19T17:37:00Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "1",
+        "planned_mw": 0.0,
+        "forced_major_mw": 210.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "15/03/2024",
+        "start_time": "00:00",
+        "end_date": null,
+        "end_time": null,
+        "reason": "COAL FEEDING SYSTEM FAILURE."
+      }
+    },
+    {
+      "item_id": "outage-2026-05-25-003",
+      "headline": "RAICHUR TPS unit 3: 0.0 MW affected",
+      "detail": "Outage at RAICHUR TPS unit 3, 0.0 MW total affected capacity (planned 0.0, forced-major 0.0, forced-minor 0.0, others 0.0). Period: 25/05/2026 to 25/05/2026. Reason: ELECTRICAL MISCELLANEOUS PROBLEMS.",
+      "materiality_score": 1,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/25-05-2026/dgr10-2026-05-25.pdf",
+      "source_timestamp": "2026-07-19T17:37:00Z",
+      "delta_from_previous": "Affected capacity changed 210.0 -> 0.0 MW vs prior day",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "3",
+        "planned_mw": 0.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "25/05/2026",
+        "start_time": "07:15",
+        "end_date": "25/05/2026",
+        "end_time": "11:27",
+        "reason": "ELECTRICAL MISCELLANEOUS PROBLEMS"
+      }
+    },
+    {
+      "item_id": "outage-2026-05-25-004",
+      "headline": "RAICHUR TPS unit 4: 210.0 MW affected",
+      "detail": "Outage at RAICHUR TPS unit 4, 210.0 MW total affected capacity (planned 0.0, forced-major 0.0, forced-minor 210.0, others 0.0). Period: 24/05/2026 to 25/05/2026. Reason: COOLING WATER PUMP PROBLEM.",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/25-05-2026/dgr10-2026-05-25.pdf",
+      "source_timestamp": "2026-07-19T17:37:00Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "4",
+        "planned_mw": 0.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 210.0,
+        "others_mw": 0.0,
+        "start_date": "24/05/2026",
+        "start_time": "18:16",
+        "end_date": "25/05/2026",
+        "end_time": "02:12",
+        "reason": "COOLING WATER PUMP PROBLEM"
+      }
+    },
+    {
+      "item_id": "outage-2026-05-25-005",
+      "headline": "BELLARY TPS unit 3: outage resolved",
+      "detail": "Outage at BELLARY TPS unit 3 present in the prior day's report is no longer listed -- treated as resolved/returned to service.",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/25-05-2026/dgr10-2026-05-25.pdf",
+      "source_timestamp": "2026-07-19T17:37:00Z",
+      "delta_from_previous": "Resolved since prior day's report",
+      "grid_zone": "Ballari",
+      "raw_values": {
+        "station": "BELLARY TPS",
+        "unit": "3",
+        "planned_mw": 0.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 700.0,
+        "others_mw": 0.0,
+        "start_date": "22/05/2026",
+        "start_time": "13:14",
+        "end_date": "24/05/2026",
+        "end_time": "17:59",
+        "reason": "WATER WALL TUBE LEAKAGE"
+      }
+    },
+    {
+      "item_id": "outage-2026-05-25-006",
+      "headline": "RAICHUR TPS unit 2: outage resolved",
+      "detail": "Outage at RAICHUR TPS unit 2 present in the prior day's report is no longer listed -- treated as resolved/returned to service.",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/25-05-2026/dgr10-2026-05-25.pdf",
+      "source_timestamp": "2026-07-19T17:37:00Z",
+      "delta_from_previous": "Resolved since prior day's report",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "2",
+        "planned_mw": 0.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "23/05/2026",
+        "start_time": "23:12",
+        "end_date": "24/05/2026",
+        "end_time": "03:56",
+        "reason": "GENERATOR PROTECTION RELAY OPERATION PROBLEM"
+      }
+    }
+  ]
+}

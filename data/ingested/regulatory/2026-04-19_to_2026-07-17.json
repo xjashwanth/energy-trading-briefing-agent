@@ -1,0 +1,73 @@
+{
+  "source": "regulatory",
+  "region": "Karnataka",
+  "as_of_date": "2026-07-17",
+  "generated_at": "2026-08-13T07:06:44Z",
+  "items": [
+    {
+      "item_id": "regulatory-2026-07-17-001",
+      "headline": "KERC true-up order: BESCOM tariff up 56 paise/unit from May 2026",
+      "detail": "KERC issued a true-up tariff order covering revenue shortfalls from FY2024-25. BESCOM permitted to raise tariffs by 56 paise/unit; CESC (Mysuru) by 15 paise/unit. Effective for electricity consumed May 1, 2026 - Apr 30, 2027. Some other ESCOMs (MESCOM, HESCOM, GESCOM, HRECS) directed to refund surplus revenue to consumers instead.",
+      "materiality_score": 2,
+      "source_reference": "https://newsable.asianetnews.com/karnataka-news/kerc-issues-true-up-tariff-order-bescom-consumers-to-pay-56-paise-more-per-unit-articleshow-03ssvtv",
+      "source_timestamp": "2026-04-18T00:00:00Z",
+      "delta_from_previous": null,
+      "grid_zone": "BESCOM (Bengaluru Urban + surrounding), CESC (Mysuru)",
+      "raw_values": {
+        "filing_type": "true-up tariff order",
+        "commission": "KERC",
+        "bescom_change_paise_per_unit": 56,
+        "cesc_change_paise_per_unit": 15,
+        "effective_from": "2026-05-01",
+        "effective_to": "2027-04-30",
+        "note_for_trader_relevance": "This is a RETAIL tariff change (what consumers pay ESCOMs), not a wholesale/DAM price change. Low direct relevance to day-ahead trading; included mainly as background context on ESCOM financial health and demand-side cost pressure. Flag this distinction for your synthesis agent so it doesn't conflate retail tariff moves with wholesale price signals.",
+        "relevance_classification_reason": "Retail/consumer-facing tariff or code change -- kept as demand-side context, not a wholesale signal",
+        "curator_original_materiality_score": 3
+      }
+    },
+    {
+      "item_id": "regulatory-2026-07-17-002",
+      "headline": "KERC opens public hearing on solar tariff framework for 2026-2029",
+      "detail": "Public notice issued July 2, 2026 announcing a hearing to determine tariff and regulatory framework for solar power projects (including Distributed Solar PV) for the control period July 1, 2026 - June 30, 2029. Covers multiple categories of solar generators and various metering arrangements.",
+      "materiality_score": 2,
+      "source_reference": "https://solarquarter.com/2026/07/03/kerc-schedules-public-hearing-on-solar-tariffs-and-regulatory-framework-for-2026-2029-in-karnataka/",
+      "source_timestamp": "2026-07-02T00:00:00Z",
+      "delta_from_previous": null,
+      "grid_zone": null,
+      "raw_values": {
+        "filing_type": "public notice / hearing announcement",
+        "commission": "KERC",
+        "control_period_start": "2026-07-01",
+        "control_period_end": "2029-06-30",
+        "scope": "solar generation tariff, including DSPV",
+        "note_for_trader_relevance": "Procedural/consultative stage, not yet a binding order. Low near-term market relevance; worth tracking as it develops toward a final order, since solar tariff changes affect merit-order generation economics over the control period.",
+        "relevance_classification_reason": "Procedural/consultative stage (hearing/draft/notice), not yet a binding order -- kept as low-priority watch item regardless of subject matter",
+        "curator_original_materiality_score": 2
+      }
+    },
+    {
+      "item_id": "regulatory-2026-07-17-003",
+      "headline": "KERC issues draft amendment to Karnataka Electricity Distribution Code",
+      "detail": "Draft First Amendment to the Karnataka Electricity Distribution Code (KEDC) 2026 gazetted June 11, 2026; public hearing notice issued July 3, 2026. Hearing held July 14, 2026 at KERC's Bengaluru office. Amendment addresses distribution/supply standards, metering, and grid-integration rules relevant to renewable and open-access connections.",
+      "materiality_score": 2,
+      "source_reference": "https://www.eqmagpro.com/draft-karnataka-electricity-distribution-code-first-amendment-2026-eq/",
+      "source_timestamp": "2026-07-03T00:00:00Z",
+      "delta_from_previous": null,
+      "grid_zone": null,
+      "raw_values": {
+        "filing_type": "draft regulation amendment",
+        "commission": "KERC",
+        "gazette_date": "2026-06-11",
+        "hearing_date": "2026-07-14",
+        "scope": "Distribution Code: metering, billing, technical connection standards, grid integration",
+        "note_for_trader_relevance": "Operational/technical rulemaking, not a price signal by itself. Relevant mainly for medium-term grid-integration and open-access rule changes rather than day-ahead trading decisions.",
+        "relevance_classification_reason": "Procedural/consultative stage (hearing/draft/notice), not yet a binding order -- kept as low-priority watch item regardless of subject matter",
+        "curator_original_materiality_score": 2
+      }
+    }
+  ],
+  "window_start": "2026-04-19",
+  "window_end": "2026-07-17",
+  "collection_method": "manual web search + curation (see regulatory_collection_notes.md \u2014 KERC's own site blocks automated access via robots.txt)",
+  "dropped_items": []
+}

@@ -1,0 +1,25 @@
+{
+  "source": "cross_reference",
+  "region": "Karnataka",
+  "as_of_date": "2026-06-28",
+  "generated_at": "2026-08-13T07:06:49Z",
+  "items": [
+    {
+      "item_id": "cross_reference-2026-06-28-001",
+      "headline": "Price move coincides with 1 major outage(s) same day",
+      "detail": "Wide intraday MCP spread: 149% of daily average on 2026-06-28, same day as: YERMARUS TPP unit 2: 800.0 MW affected (~800 MW total affected capacity). Reduced supply is a plausible contributing driver, alongside demand-side factors -- not asserted as the sole cause.",
+      "materiality_score": 4,
+      "source_reference": "local:data\\historical\\prices\\2026-06-28.json + outage records",
+      "source_timestamp": "2026-06-28T00:00:00Z",
+      "delta_from_previous": "Persisting from prior day",
+      "grid_zone": null,
+      "raw_values": {
+        "risk_type": "price_spike_plus_outage",
+        "linked_item_ids": [
+          "price-2026-06-28-003",
+          "outage-2026-06-28-005"
+        ]
+      }
+    }
+  ]
+}

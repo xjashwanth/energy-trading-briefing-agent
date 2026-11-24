@@ -1,0 +1,54 @@
+{
+  "source": "weather",
+  "region": "Karnataka",
+  "as_of_date": "2026-05-18",
+  "generated_at": "2026-08-13T07:06:43Z",
+  "items": [
+    {
+      "item_id": "weather-2026-05-18-001",
+      "headline": "Bengaluru Urban: Warm conditions -- modest cooling-demand pressure (max 33.2C)",
+      "detail": "Max temperature 33.2C, mean 25.4C, humidity 78%.",
+      "materiality_score": 2,
+      "source_reference": "local:data\\historical\\weather\\2026-05-18\\bengaluru.json",
+      "source_timestamp": "2026-07-19T17:34:13Z",
+      "delta_from_previous": "-0.9C vs prior day max",
+      "grid_zone": "Bengaluru Urban",
+      "raw_values": {
+        "location": "Bengaluru",
+        "latitude": 12.970123,
+        "longitude": 77.56364,
+        "date": "2026-05-18",
+        "temperature_2m_max_c": 33.2,
+        "temperature_2m_min_c": 22.5,
+        "temperature_2m_mean_c": 25.4,
+        "relative_humidity_2m_mean_pct": 78,
+        "precipitation_sum_mm": 31.0,
+        "wind_speed_10m_max_kmh": 14.9,
+        "fetched_at": "2026-07-19T17:34:13Z"
+      }
+    },
+    {
+      "item_id": "weather-2026-05-18-002",
+      "headline": "Bengaluru Urban: Moderate rainfall -- some hydro inflow benefit, mild demand dampening (31.0mm)",
+      "detail": "Precipitation sum 31.0mm for 2026-05-18.",
+      "materiality_score": 2,
+      "source_reference": "local:data\\historical\\weather\\2026-05-18\\bengaluru.json",
+      "source_timestamp": "2026-07-19T17:34:13Z",
+      "delta_from_previous": null,
+      "grid_zone": "Bengaluru Urban",
+      "raw_values": {
+        "location": "Bengaluru",
+        "latitude": 12.970123,
+        "longitude": 77.56364,
+        "date": "2026-05-18",
+        "temperature_2m_max_c": 33.2,
+        "temperature_2m_min_c": 22.5,
+        "temperature_2m_mean_c": 25.4,
+        "relative_humidity_2m_mean_pct": 78,
+        "precipitation_sum_mm": 31.0,
+        "wind_speed_10m_max_kmh": 14.9,
+        "fetched_at": "2026-07-19T17:34:13Z"
+      }
+    }
+  ]
+}

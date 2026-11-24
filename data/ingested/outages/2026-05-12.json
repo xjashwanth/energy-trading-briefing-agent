@@ -1,0 +1,146 @@
+{
+  "source": "outage",
+  "region": "Karnataka",
+  "as_of_date": "2026-05-12",
+  "generated_at": "2026-08-13T07:06:43Z",
+  "items": [
+    {
+      "item_id": "outage-2026-05-12-001",
+      "headline": "KAIGA unit 1: 220.0 MW affected",
+      "detail": "Outage at KAIGA unit 1, 220.0 MW total affected capacity (planned 220.0, forced-major 0.0, forced-minor 0.0, others 0.0). Period: 31/03/2025 (ongoing, no end date reported). Reason: MISCELLANEOUS PLANNED MAINTENANCE.",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/12-05-2026/dgr10-2026-05-12.pdf",
+      "source_timestamp": "2026-07-19T17:36:25Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": "Uttara Kannada",
+      "raw_values": {
+        "station": "KAIGA",
+        "unit": "1",
+        "planned_mw": 220.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "31/03/2025",
+        "start_time": "23:11",
+        "end_date": null,
+        "end_time": null,
+        "reason": "MISCELLANEOUS PLANNED MAINTENANCE"
+      }
+    },
+    {
+      "item_id": "outage-2026-05-12-002",
+      "headline": "RAICHUR TPS unit 1: 210.0 MW affected",
+      "detail": "Outage at RAICHUR TPS unit 1, 210.0 MW total affected capacity (planned 0.0, forced-major 210.0, forced-minor 0.0, others 0.0). Period: 15/03/2024 (ongoing, no end date reported). Reason: COAL FEEDING SYSTEM FAILURE..",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/12-05-2026/dgr10-2026-05-12.pdf",
+      "source_timestamp": "2026-07-19T17:36:25Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "1",
+        "planned_mw": 0.0,
+        "forced_major_mw": 210.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "15/03/2024",
+        "start_time": "00:00",
+        "end_date": null,
+        "end_time": null,
+        "reason": "COAL FEEDING SYSTEM FAILURE."
+      }
+    },
+    {
+      "item_id": "outage-2026-05-12-003",
+      "headline": "RAICHUR TPS unit 3: 210.0 MW affected",
+      "detail": "Outage at RAICHUR TPS unit 3, 210.0 MW total affected capacity (planned 0.0, forced-major 210.0, forced-minor 0.0, others 0.0). Period: 24/04/2026 (ongoing, no end date reported). Reason: TURBINE VIBRATIONS HIGH Sub-Report-10 Date& Time of Expected/sync Planned Forced Forced Others Maintenance Date of Return Reasons/Present Status State/System Power Station Unit No. Maintenance (MW) Maintenance Maintenance Maintenance (MW) (Major) (MW) (Minor) (MW) DD/MM/YYYY DD/MM/YYYY HH24:MM HH24:MM 1 2 3 4 5 6 7 8 9 10.",
+      "materiality_score": 2,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/12-05-2026/dgr10-2026-05-12.pdf",
+      "source_timestamp": "2026-07-19T17:36:25Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "3",
+        "planned_mw": 0.0,
+        "forced_major_mw": 210.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "24/04/2026",
+        "start_time": "12:43",
+        "end_date": null,
+        "end_time": null,
+        "reason": "TURBINE VIBRATIONS HIGH Sub-Report-10 Date& Time of Expected/sync Planned Forced Forced Others Maintenance Date of Return Reasons/Present Status State/System Power Station Unit No. Maintenance (MW) Maintenance Maintenance Maintenance (MW) (Major) (MW) (Minor) (MW) DD/MM/YYYY DD/MM/YYYY HH24:MM HH24:MM 1 2 3 4 5 6 7 8 9 10"
+      }
+    },
+    {
+      "item_id": "outage-2026-05-12-004",
+      "headline": "RAICHUR TPS unit 8: 0.0 MW affected",
+      "detail": "Outage at RAICHUR TPS unit 8, 0.0 MW total affected capacity (planned 0.0, forced-major 0.0, forced-minor 0.0, others 0.0). Period: 12/05/2026 to 12/05/2026. Reason: GENERATOR PROTECTION RELAY OPERATION PROBLEM.",
+      "materiality_score": 1,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/12-05-2026/dgr10-2026-05-12.pdf",
+      "source_timestamp": "2026-07-19T17:36:25Z",
+      "delta_from_previous": "Affected capacity changed 250.0 -> 0.0 MW vs prior day",
+      "grid_zone": "Raichur",
+      "raw_values": {
+        "station": "RAICHUR TPS",
+        "unit": "8",
+        "planned_mw": 0.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 0.0,
+        "others_mw": 0.0,
+        "start_date": "12/05/2026",
+        "start_time": "00:52",
+        "end_date": "12/05/2026",
+        "end_time": "05:09",
+        "reason": "GENERATOR PROTECTION RELAY OPERATION PROBLEM"
+      }
+    },
+    {
+      "item_id": "outage-2026-05-12-005",
+      "headline": "YERMARUS TPP unit 2: 800.0 MW affected",
+      "detail": "Outage at YERMARUS TPP unit 2, 800.0 MW total affected capacity (planned 0.0, forced-major 0.0, forced-minor 800.0, others 0.0). Period: 06/05/2026 to 12/05/2026. Reason: WATER WALL TUBE LEAKAGE.",
+      "materiality_score": 4,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/12-05-2026/dgr10-2026-05-12.pdf",
+      "source_timestamp": "2026-07-19T17:36:25Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": null,
+      "raw_values": {
+        "station": "YERMARUS TPP",
+        "unit": "2",
+        "planned_mw": 0.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 800.0,
+        "others_mw": 0.0,
+        "start_date": "06/05/2026",
+        "start_time": "05:11",
+        "end_date": "12/05/2026",
+        "end_time": "17:27",
+        "reason": "WATER WALL TUBE LEAKAGE"
+      }
+    },
+    {
+      "item_id": "outage-2026-05-12-006",
+      "headline": "ADANI POWER unit 2: 600.0 MW affected",
+      "detail": "Outage at ADANI POWER unit 2, 600.0 MW total affected capacity (planned 0.0, forced-major 0.0, forced-minor 600.0, others 0.0). Period: 06/05/2026 (ongoing, no end date reported). Reason: RESERVE SHUT DOWN / LIMITED UDUPI TPP STANDBY UNIT.",
+      "materiality_score": 4,
+      "source_reference": "https://npp.gov.in/public-reports/cea/daily/dgr/12-05-2026/dgr10-2026-05-12.pdf",
+      "source_timestamp": "2026-07-19T17:36:25Z",
+      "delta_from_previous": "Ongoing, no material change vs prior day",
+      "grid_zone": null,
+      "raw_values": {
+        "station": "ADANI POWER",
+        "unit": "2",
+        "planned_mw": 0.0,
+        "forced_major_mw": 0.0,
+        "forced_minor_mw": 600.0,
+        "others_mw": 0.0,
+        "start_date": "06/05/2026",
+        "start_time": "00:01",
+        "end_date": null,
+        "end_time": null,
+        "reason": "RESERVE SHUT DOWN / LIMITED UDUPI TPP STANDBY UNIT"
+      }
+    }
+  ]
+}
